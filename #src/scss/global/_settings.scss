@@ -1,0 +1,7 @@
+.container {
+    max-width: 1200px; /*первоначальный 1170 и накинули по 15пикс с двух сторон, чтобы не прилипал*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}

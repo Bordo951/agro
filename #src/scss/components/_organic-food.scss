@@ -1,0 +1,27 @@
+.organic-food {
+  max-width: 1590px; /*первоначальный 15600 и накинули по 15пикс с двух сторон, чтобы не прилипал - ???*/
+  
+  height: 1630px; /* @todo: think about dynamic height*/
+  background-image: url("../media/bg-organic-food.jpg");
+  background-size: cover;
+  background-position: top;
+  position: relative;
+  clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 90%);;
+
+  .organic-food__wr-title {
+    max-width: 520px;
+    position: absolute;
+  }
+
+  .organic-food__title {
+    font-family: Storytella, Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    color: $color-white;
+    font-size: 200px;
+    line-height: 200px;
+  }
+}
+
+ 
+
+
