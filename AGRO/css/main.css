@@ -392,7 +392,7 @@ template,
 }
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: "OpenSans-Regular";
   font-display: swap;
   src: url("../fonts/OpenSans-Regular.woff") format("woff"), url("../fonts/OpenSans-Regular.woff2") format("woff2");
   font-weight: 400;
@@ -400,7 +400,7 @@ template,
 }
 
 @font-face {
-  font-family: "OpenSans";
+  font-family: "OpenSans-Light";
   font-display: swap;
   src: url("../fonts/OpenSans-Light.woff") format("woff"), url("../fonts/OpenSans-Light.woff2") format("woff2");
   font-weight: 300;
@@ -408,7 +408,7 @@ template,
 }
 
 @font-face {
-  font-family: "Raleway";
+  font-family: "Raleway-Thin";
   font-display: swap;
   src: url("../fonts/Raleway-Thin.woff") format("woff"), url("../fonts/Raleway-Thin.woff2") format("woff2");
   font-weight: 100;
@@ -416,7 +416,7 @@ template,
 }
 
 @font-face {
-  font-family: "Raleway";
+  font-family: "Raleway-Regular";
   font-display: swap;
   src: url("../fonts/Raleway-Regular.woff") format("woff"), url("../fonts/Raleway-Regular.woff2") format("woff2");
   font-weight: 400;
@@ -432,7 +432,7 @@ template,
 }
 
 @font-face {
-  font-family: "Raleway";
+  font-family: "Raleway-Bold";
   font-display: swap;
   src: url("../fonts/Raleway-Bold.woff") format("woff"), url("../fonts/Raleway-Bold.woff2") format("woff2");
   font-weight: 700;
@@ -440,7 +440,7 @@ template,
 }
 
 @font-face {
-  font-family: "Raleway";
+  font-family: "Raleway-Black";
   font-display: swap;
   src: url("../fonts/Raleway-Black.woff") format("woff"), url("../fonts/Raleway-Black.woff2") format("woff2");
   font-weight: 900;
@@ -457,9 +457,84 @@ template,
           box-sizing: border-box;
 }
 
-/* h1 {
-    color: $color-amarant;
-}*/
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 5;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+  height: 110px;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.05)));
+  background: -o-linear-gradient(top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.05));
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.05));
+}
+
+.header .header__logo {
+  position: fixed;
+  top: -25px;
+}
+
+.header .header__wr-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+}
+
+.header .header__navigation {
+  margin-left: 100px;
+}
+
+.header .header__nav-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+}
+
+.header .header__nav-list__item {
+  margin-left: 29px;
+  padding-top: 49px;
+  padding-bottom: 40px;
+  border-bottom: 2px transparent solid;
+}
+
+.header .header__nav-list__item:hover {
+  border-bottom: 2px #fcdb5a solid;
+  cursor: pointer;
+}
+
+.header .header__nav-list__item a {
+  font-family: "OpenSans-Regular", Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #fff;
+  height: 100%;
+  padding: 35px 0;
+}
+
+.header .header__call-to-action {
+  position: absolute;
+  right: 15px;
+  top: 37px;
+  height: 45px;
+  width: 155px;
+  border-radius: 22px;
+  border: none;
+  background-color: #fff;
+  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+  color: #1b1b1b;
+  font-size: 12px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
 
 .organic-food {
   max-width: 1590px;
