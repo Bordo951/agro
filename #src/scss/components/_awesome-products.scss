@@ -1,46 +1,61 @@
 .awesome-products {
+    margin-top: -785px;
+
     .awesome-products__wr-awesome-products {
         display: grid;
         grid-template-rows: 310px 370px;
         grid-template-columns: [left-gutter] 1fr 380px 385px 115px 500px [right-gutter] 1fr;
         
+        .aw-product-item {
+            background-size: contain; 
+            cursor: pointer;
+            position: relative; 
+        }
+
         .awesome-products__sweets {
             grid-row: 1/3;
             grid-column: 2/3;
             background: url("../media/awesome-products/ap-muffins.jpg") no-repeat;
-            background-size: contain; //make class for repeat
-            cursor: pointer;    
         }
 
         .awesome-products__food {
             grid-row: 1/2;
             grid-column: 3/5;
             background: url("../media/awesome-products/ap-salad.jpg") no-repeat;
-            background-size: contain;
-            cursor: pointer;
-            }
+        }
 
         .awesome-products__meat {
             grid-row: 1/2;
             grid-column: 5/6;
             background: url("../media/awesome-products/ap-meat.jpg") no-repeat;
-            background-size: contain;
-            cursor: pointer;
-            }
+        }
 
         .awesome-products__fruts {
             grid-row: 2/3;
             grid-column: 4/6;
             background: url("../media/awesome-products/ap-berries.jpg") no-repeat;
-            background-size: contain;
-            cursor: pointer;
-            }
+        }
 
         .awesome-products__agro {
             grid-row: 2/3;
             grid-column: 3/4;
-            cursor: pointer;
+            position: relative;
+            padding-top: 40px;
+            padding-left: 90px;
+            width: 215px;
         }
 
+        .awesome-products__shadow {
+            background: linear-gradient(0deg, $color-black-a7, $color-black-a05);
+            height: 100%;
+        }
+
+        .awesome-products__title {
+            position: absolute;
+            bottom: -5px;
+            left: 30px;
+            line-height: 30px;
+            font-size: 30px;
+        }
     }
 }

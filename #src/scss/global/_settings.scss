@@ -13,3 +13,26 @@ li {
 a {
     text-decoration: none;
 }
+
+.title {
+    font-family: "Raleway-Thin", Arial, Helvetica, sans-serif;
+    color: $color-signal-black;
+    font-size: 40px;
+    text-transform: uppercase;
+
+    .title_bold {
+        font-family: "Raleway-Black", Arial, Helvetica, sans-serif;
+    }
+
+    .title_block {
+        display: block;
+    }
+}
+
+.title_color-mustard {
+    color: $color-mustard;
+}
+
+.title_color-white {
+    color: $color-white;
+}
