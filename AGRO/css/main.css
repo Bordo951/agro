@@ -480,12 +480,28 @@ a {
   display: block;
 }
 
-.title_color-mustard {
+.text_color-mustard {
   color: #fcdb5a;
 }
 
-.title_color-white {
+.text_color-white {
   color: #fff;
+}
+
+.text_color-amarant {
+  color: #db2985;
+}
+
+.text_color-green {
+  color: #72aa41;
+}
+
+.text_color-orange {
+  color: #f2A137;
+}
+
+.text_color-turquoise {
+  color: #4FB1C9;
 }
 
 .header {
@@ -648,6 +664,42 @@ a {
   left: 30px;
   line-height: 30px;
   font-size: 30px;
+}
+
+.triptych {
+  margin-top: 185px;
+}
+
+.triptych .triptych__wr-triptych {
+  position: relative;
+}
+
+.triptych .triptych__element {
+  position: absolute;
+}
+
+.triptych .triptych__gradient {
+  top: -35px;
+  right: 425px;
+}
+
+.triptych .triptych__wood-top {
+  top: -15px;
+  right: 450px;
+}
+
+.triptych .triptych__text {
+  width: 515px;
+  top: -75px;
+  right: 15px;
+  font-family: Storytella,Arial,Helvetica,sans-serif;
+  font-size: 100px;
+  font-weight: 400;
+  line-height: 100px;
+}
+
+.triptych .right-gutter {
+  margin-right: 15px;
 }
 
 .webp .organic-food{ background-image: url(../media/bg-organic-food.webp); }
