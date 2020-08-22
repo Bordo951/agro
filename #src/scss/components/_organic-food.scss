@@ -6,11 +6,12 @@
   background-size: cover;
   background-position: top;
   position: relative;
-  clip-path: polygon(0 0, 100% 0, 100% 66%, 0% 90%);;
+  clip-path: polygon(0 0,100% 0,100% 77%,0 100%);
 
   .organic-food__wr-title {
     max-width: 520px;
     position: absolute;
+    top: 170px;
   }
 
   .organic-food__title {
