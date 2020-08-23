@@ -151,8 +151,9 @@ function fonts() {
 })*/ 
 
 /* Sprite */
+/*gylp - second terminal gulp svgSprite */
 
-/*gulp.task('svgSprite', function () {
+gulp.task('svgSprite', function () {
     return gulp.src([source_folder + '/media/sprite/*.svg'])
         .pipe(svgSprite({
             mode: {
@@ -164,7 +165,7 @@ function fonts() {
         }
         ))
         .pipe(dest(path.build.media))
-})*/
+})
 
 function fontsStyle(params) {
     let file_content = fs.readFileSync(source_folder + '/scss/global/_fonts.scss');

@@ -1,0 +1,22 @@
+.services {
+    .services__wr-title {
+        margin-top: 90px;
+    } 
+
+    .services__title {
+        margin-bottom: 10px;
+    }
+
+    .services__wr-icons-row {
+        display: flex;
+        justify-content: space-around;
+        margin-top: 90px;
+    }
+
+    .column__icon-title {
+    font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: $color-signal-black;
+    line-height: 50px;
+    }
+}

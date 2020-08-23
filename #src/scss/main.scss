@@ -1,33 +1,19 @@
 /// Global styles
 @import './global/_normalize';
-@import './global/_mixins.scss';
+@import './global/_mixins';
 @import './global/_colors';
 @import './global/_fonts';
 @import './global/_settings';
+
+
+/// Elements
+@import './elements/_title';
+@import './elements/_icons-sprite';
+
 
 /// Components
 @import './components/_header';
 @import './components/_organic-food';
 @import './components/_awesome-products';
 @import './components/_triptych';
-
-
-// body {
-//     font-size: 15px;
-
-//     display: flex;
-// }
-
-// span {
-//     font-size: 20px;
-//     @media (max-width: 767px) {
-//         font-size: 15px;
-//     }
-// }
-
-// div {
-//     font-size: 30px;
-//     @media (max-width: 767px) {
-//         font-size: 20px;
-//     }
-// }
+@import './components/_services';
