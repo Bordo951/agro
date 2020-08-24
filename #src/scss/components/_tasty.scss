@@ -1,11 +1,27 @@
 .tasty {
     background-color: $color-smoky-white;
-    // position: relative;
+    position: relative;
 
     .tasty__background {
-        // background-image: url("./media/bg-tasty-cakes.png" alt="bg-tasty-cakes");
-        // position: absolute;
-        // right: 0;
-        // bottom: 0;
+        position: absolute;
+        right: 0;
+        top: 465px;
+    }
+
+    .tasty__logo {
+        position: absolute;
+        right: 310px;
+        top: 485px; 
+    }
+
+    .tasty__title {
+        position: absolute;
+        left: 185px;
+        top: 365px;
+        max-width: 430px;
+        font-family: Storytella, Arial, Helvetica, sans-serif;
+        font-size: 230px;
+        color: $color-light-mocco;
+        line-height: 180px;
     }
 }

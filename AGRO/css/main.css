@@ -522,8 +522,8 @@ a {
 }
 
 .svg-cakes-organic-dims {
-  width: 195px;
-  height: 198px;
+  width: 235px;
+  height: 235px;
 }
 
 .svg-ico-fb-dims {
@@ -967,6 +967,30 @@ a {
 
 .tasty {
   background-color: #f9f9f9;
+  position: relative;
+}
+
+.tasty .tasty__background {
+  position: absolute;
+  right: 0;
+  top: 465px;
+}
+
+.tasty .tasty__logo {
+  position: absolute;
+  right: 310px;
+  top: 485px;
+}
+
+.tasty .tasty__title {
+  position: absolute;
+  left: 185px;
+  top: 365px;
+  max-width: 430px;
+  font-family: Storytella, Arial, Helvetica, sans-serif;
+  font-size: 230px;
+  color: #ccaf8a;
+  line-height: 180px;
 }
 
 .webp .organic-food{ background-image: url(../media/bg-organic-food.webp); }
