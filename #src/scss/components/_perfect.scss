@@ -6,7 +6,7 @@
     background-size: cover;
     background-position: top;
     position: relative;
-
+    
     .perfect__wr-title {
         position: absolute;
         top: 95px;
@@ -46,6 +46,7 @@
         display: grid;
         grid-template-rows: repeat(2, 220px);
         grid-template-columns: repeat(3, 292px) 294px;
+        
     }
 
     .perfect__bg-superfood {
