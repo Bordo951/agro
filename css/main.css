@@ -852,6 +852,7 @@ a {
   background-size: cover;
   background-position: top;
   position: relative;
+  cursor: pointer;
 }
 
 .perfect .perfect__wr-title {
