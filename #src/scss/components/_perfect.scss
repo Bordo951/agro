@@ -1,15 +1,12 @@
 .perfect {
-    max-width: 1590px;
     height: 695px;
     margin-top: 100px;
     background-image: url("../media/perfect/bg-perfect.jpg");
     background-size: cover;
     background-position: top;
-    position: relative;
-    
+       
     .perfect__wr-title {
-        position: absolute;
-        top: 95px;
+        padding-top: 95px;
     }
 
     .perfect__title {
@@ -40,12 +37,11 @@
     }
 
     .perfect__grid-table {
-        position: absolute;
-        left: 175px;
-        bottom: -325px;
+        margin-top: 110px;
         display: grid;
         grid-template-rows: repeat(2, 220px);
         grid-template-columns: repeat(3, 292px) 294px;
+        cursor: pointer;
         
     }
 
