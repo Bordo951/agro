@@ -965,6 +965,10 @@ a {
   grid-column: 3/4;
 }
 
+.tasty {
+  background-color: #f9f9f9;
+}
+
 .webp .organic-food{ background-image: url(../media/bg-organic-food.webp); }
 
 .webp .awesome-products .awesome-products__wr-awesome-products .awesome-products__sweets{ background: url(../media/awesome-products/ap-muffins.webp) no-repeat; }
