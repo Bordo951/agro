@@ -465,6 +465,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 .title {
   font-family: "Raleway-Thin", Arial, Helvetica, sans-serif;
   color: #333333;
@@ -572,23 +576,23 @@ a {
 }
 
 .svg-prog-cakes-dims {
-  width: 68px;
-  height: 60px;
+  width: 70px;
+  height: 75px;
 }
 
 .svg-prog-cupcakes-dims {
-  width: 55px;
-  height: 76px;
+  width: 95px;
+  height: 75px;
 }
 
 .svg-prog-doughnut-dims {
   width: 70px;
-  height: 52px;
+  height: 75px;
 }
 
 .svg-prog-muffins-dims {
-  width: 70px;
-  height: 69px;
+  width: 80px;
+  height: 75px;
 }
 
 .svg-serv-burger-dims {
@@ -761,7 +765,7 @@ a {
   grid-row: 2/3;
   grid-column: 3/4;
   position: relative;
-  padding-top: 40px;
+  padding-top: 80px;
   padding-left: 90px;
   width: 215px;
 }
@@ -775,7 +779,7 @@ a {
 
 .awesome-products .awesome-products__wr-awesome-products .awesome-products__title {
   position: absolute;
-  bottom: -5px;
+  bottom: 25px;
   left: 30px;
   line-height: 30px;
   font-size: 30px;
@@ -806,7 +810,7 @@ a {
 
 .triptych .triptych__text {
   width: 515px;
-  top: -75px;
+  top: 30px;
   right: 15px;
   font-family: Storytella,Arial,Helvetica,sans-serif;
   font-size: 100px;
@@ -840,22 +844,23 @@ a {
   font-size: 16px;
   color: #333333;
   line-height: 50px;
+  margin-top: 10px;
 }
 
 .perfect {
   height: 695px;
-  margin-top: 100px;
+  margin-top: 120px;
   background-image: url("../media/perfect/bg-perfect.jpg");
   background-size: cover;
   background-position: top;
 }
 
 .perfect .perfect__wr-title {
-  padding-top: 95px;
+  padding-top: 140px;
 }
 
 .perfect .perfect__title {
-  margin-bottom: 25px;
+  margin-bottom: 20px;
 }
 
 .perfect .perfect__subtitle {
@@ -867,7 +872,7 @@ a {
 }
 
 .perfect .perfect__call-to-action {
-  margin-top: 30px;
+  margin-top: 45px;
   height: 55px;
   width: 160px;
   border-radius: 26px;
@@ -887,6 +892,8 @@ a {
   grid-template-rows: repeat(2, 220px);
   grid-template-columns: repeat(3, 292px) 294px;
   cursor: pointer;
+  position: relative;
+  z-index: 5;
 }
 
 .perfect .perfect__bg-superfood {
@@ -971,9 +978,7 @@ a {
 }
 
 .tasty .tasty__background {
-  position: absolute;
-  right: 0;
-  top: 465px;
+  margin: 470px 0 0 560px;
 }
 
 .tasty .tasty__logo {
@@ -985,12 +990,55 @@ a {
 .tasty .tasty__title {
   position: absolute;
   left: 185px;
-  top: 365px;
+  bottom: 200px;
   max-width: 430px;
   font-family: Storytella, Arial, Helvetica, sans-serif;
   font-size: 230px;
   color: #ccaf8a;
   line-height: 180px;
+}
+
+.progress .progress__wr-title {
+  margin-top: 135px;
+}
+
+.progress .progress__title {
+  margin-bottom: 10px;
+}
+
+.progress .progress__wr-icons-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  padding-top: 70px;
+}
+
+.progress .progress__icons-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 115px;
+}
+
+.progress .progress__icon {
+  margin-right: 20px;
+}
+
+.progress .progress__icon-counter {
+  font-family: Gilroy-Extrabold, Arial, Helvetica, sans-serif;
+  font-size: 50px;
+  color: #2e211d;
+  line-height: 50px;
+}
+
+.progress .progress__icon-title {
+  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #555555;
+  line-height: 50px;
 }
 
 .webp .organic-food{ background-image: url(../media/bg-organic-food.webp); }

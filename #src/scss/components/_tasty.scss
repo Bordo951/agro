@@ -3,9 +3,7 @@
     position: relative;
 
     .tasty__background {
-        position: absolute;
-        right: 0;
-        top: 465px;
+        margin: 470px 0 0 560px;
     }
 
     .tasty__logo {
@@ -17,7 +15,7 @@
     .tasty__title {
         position: absolute;
         left: 185px;
-        top: 365px;
+        bottom: 200px;
         max-width: 430px;
         font-family: Storytella, Arial, Helvetica, sans-serif;
         font-size: 230px;

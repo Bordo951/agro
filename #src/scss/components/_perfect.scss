@@ -1,16 +1,16 @@
 .perfect {
     height: 695px;
-    margin-top: 100px;
+    margin-top: 120px;
     background-image: url("../media/perfect/bg-perfect.jpg");
     background-size: cover;
     background-position: top;
        
     .perfect__wr-title {
-        padding-top: 95px;
+        padding-top: 140px;
     }
 
     .perfect__title {
-        margin-bottom: 25px;
+        margin-bottom: 20px;
     }
     
     .perfect__subtitle {
@@ -22,7 +22,7 @@
     }
 
     .perfect__call-to-action {
-        margin-top: 30px;
+        margin-top: 45px;
         height: 55px;
         width: 160px;
         border-radius: 26px;
@@ -42,7 +42,8 @@
         grid-template-rows: repeat(2, 220px);
         grid-template-columns: repeat(3, 292px) 294px;
         cursor: pointer;
-        
+        position: relative;
+        z-index: 5;
     }
 
     .perfect__bg-superfood {
