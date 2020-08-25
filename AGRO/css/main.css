@@ -1050,6 +1050,62 @@ p {
   line-height: 50px;
 }
 
+.tasty-food {
+  margin-top: 130px;
+  display: grid;
+  grid-template-rows: repeat(2, 370px);
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.tasty-food .tasty-food__wr-tasty {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.tasty-food .tasty-food__box {
+  position: relative;
+}
+
+.tasty-food .tasty-food__box .tasty-food__title {
+  opacity: 0;
+  font-family: Raleway-Bold,Arial,Helvetica,sans-serif;
+  color: #fff;
+  font-size: 18px;
+  line-height: 23px;
+  position: absolute;
+  z-index: 5;
+  text-align: center;
+  width: 100%;
+  top: calc(50%);
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.tasty-food .tasty-food__box:hover .tasty-food__title {
+  opacity: 1;
+}
+
+.tasty-food .tasty-food__box:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: #241610;
+  opacity: 0;
+  -webkit-transition: 1s;
+  -o-transition: 1s;
+  transition: 1s;
+}
+
+.tasty-food .tasty-food__box:hover:after {
+  opacity: .7;
+}
+
 .webp .organic-food{ background-image: url(../media/bg-organic-food.webp); }
 
 .webp .awesome-products .awesome-products__wr-awesome-products .awesome-products__sweets{ background: url(../media/awesome-products/ap-muffins.webp) no-repeat; }
