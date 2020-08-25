@@ -3,13 +3,16 @@
     position: relative;
 
     .tasty__background {
-        margin: 470px 0 0 560px;
+        background-image: url("../media/bg-tasty-cakes.png");
+        background-repeat: no-repeat;
+        height: 715px;
+        background-position: bottom right;
     }
 
     .tasty__logo {
         position: absolute;
         right: 310px;
-        top: 485px; 
+        top: 45px; 
     }
 
     .tasty__title {
@@ -21,5 +24,6 @@
         font-size: 230px;
         color: $color-light-mocco;
         line-height: 180px;
+        z-index: 5;
     }
 }
