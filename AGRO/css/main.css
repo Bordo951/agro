@@ -628,7 +628,7 @@ p {
 .header {
   width: 100%;
   position: fixed;
-  z-index: 5;
+  z-index: 10;
   border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   height: 110px;
   background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.05)));
@@ -1106,6 +1106,112 @@ p {
   opacity: .7;
 }
 
+.about {
+  background-image: url("../media/about/bg-about.jpg");
+  height: 570px;
+  background-size: cover;
+  background-position: top;
+  padding-top: 140px;
+}
+
+.about .about__title {
+  color: #fff;
+}
+
+.about .about__subtitle {
+  overflow: hidden;
+  -o-text-overflow: clip;
+     text-overflow: clip;
+  height: 55px;
+  margin-top: 10px;
+}
+
+.about .about__image {
+  float: left;
+  margin-right: 10px;
+}
+
+.about .about__text {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 25px;
+  color: #fff;
+  line-height: 30px;
+  overflow: hidden;
+  -o-text-overflow: clip;
+     text-overflow: clip;
+  max-width: 985px;
+  height: 115px;
+  padding: 10px 0 0 35px;
+}
+
+.about .about__wr-slider-content {
+  padding: 50px 0 0 12px;
+}
+
+.about .about__slider-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 45px;
+  padding: 0 105px 0 90px;
+}
+
+.about .about__slider-box .slider-box____wr-person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about__slider-box .slider-box__person {
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: top;
+     object-position: top;
+}
+
+.about .about__slider-box .slider-box__person-about {
+  font-family: Raleway-Regular, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  color: #fff;
+  line-height: 23px;
+  overflow: hidden;
+  -o-text-overflow: clip;
+     text-overflow: clip;
+  margin: 25px 0 0 20px;
+}
+
+.about .about__slider-box .slider-box__person-about_bold {
+  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+}
+
+.about .about__slider-controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.about .about__slider-controls .slider-control {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 2px solid #5b5b5b;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.about .about__slider-controls .slider-control.slider-control_active,
+.about .about__slider-controls .slider-control:hover {
+  background-color: #fcdb5a;
+  border-color: #fcdb5a;
+}
+
 .webp .organic-food{ background-image: url(../media/bg-organic-food.webp); }
 
 .webp .awesome-products .awesome-products__wr-awesome-products .awesome-products__sweets{ background: url(../media/awesome-products/ap-muffins.webp) no-repeat; }
@@ -1127,3 +1233,5 @@ p {
 .webp .perfect-food .perfect-food__bg-tips{ background-image: url(../media/perfect/yogurt.webp); }
 
 .webp .tasty .tasty__background{ background-image: url(../media/bg-tasty-cakes.webp); }
+
+.webp .about{ background-image: url(../media/about/bg-about.webp); }
