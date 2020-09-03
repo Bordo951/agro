@@ -546,8 +546,8 @@ p {
 }
 
 .svg-logo-emporium-dims {
-  width: 207px;
-  height: 164px;
+  width: 247px;
+  height: 167px;
 }
 
 .svg-logo-ex-agro-dims {
@@ -556,23 +556,23 @@ p {
 }
 
 .svg-logo-farm-dims {
-  width: 90px;
-  height: 123px;
+  width: 145px;
+  height: 183px;
 }
 
 .svg-logo-farmer-dims {
-  width: 132px;
+  width: 215px;
   height: 128px;
 }
 
 .svg-logo-food-dims {
-  width: 242px;
-  height: 83px;
+  width: 310px;
+  height: 185px;
 }
 
 .svg-logo-organic-dims {
-  width: 119px;
-  height: 120px;
+  width: 145px;
+  height: 160px;
 }
 
 .svg-prog-cakes-dims {
@@ -1309,6 +1309,16 @@ p {
   font-family: Raleway-Bold, Arial,Helvetica,sans-serif;
   color: #fff;
   font-size: 18px;
+}
+
+.partners .partners__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-top: 105px;
 }
 
 .webp .organic-food{ background-image: url(../media/bg-organic-food.webp); }
