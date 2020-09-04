@@ -721,6 +721,10 @@ p {
 }
 
 .organic-food {
+  position: relative;
+}
+
+.organic-food .organic-food__bg {
   height: 1630px;
   /* @todo: think about dynamic height*/
   background-image: url("../media/bg-organic-food.jpg");
@@ -745,47 +749,49 @@ p {
   line-height: 200px;
 }
 
-.awesome-products {
-  margin-top: -785px;
+.organic-food .organic-food__wr-products {
+  position: absolute;
+  bottom: 105px;
+  width: 100%;
 }
 
-.awesome-products .awesome-products__wr-awesome-products {
+.organic-food .organic-food__products {
   display: grid;
   grid-template-rows: 310px 370px;
   grid-template-columns: [left-gutter] 1fr 380px 385px 115px 500px [right-gutter] 1fr;
 }
 
-.awesome-products .awesome-products__wr-awesome-products .aw-product-item {
+.organic-food .organic-food__item {
   background-size: contain;
   cursor: pointer;
   position: relative;
 }
 
-.awesome-products .awesome-products__wr-awesome-products .awesome-products__sweets {
+.organic-food .organic-food__sweets {
   grid-row: 1/3;
   grid-column: 2/3;
   background: url("../media/awesome-products/ap-muffins.jpg") no-repeat;
 }
 
-.awesome-products .awesome-products__wr-awesome-products .awesome-products__food {
+.organic-food .organic-food__food {
   grid-row: 1/2;
   grid-column: 3/5;
   background: url("../media/awesome-products/ap-salad.jpg") no-repeat;
 }
 
-.awesome-products .awesome-products__wr-awesome-products .awesome-products__meat {
+.organic-food .organic-food__meat {
   grid-row: 1/2;
   grid-column: 5/6;
   background: url("../media/awesome-products/ap-meat.jpg") no-repeat;
 }
 
-.awesome-products .awesome-products__wr-awesome-products .awesome-products__fruts {
+.organic-food .organic-food__fruts {
   grid-row: 2/3;
   grid-column: 4/6;
   background: url("../media/awesome-products/ap-berries.jpg") no-repeat;
 }
 
-.awesome-products .awesome-products__wr-awesome-products .awesome-products__agro {
+.organic-food .organic-food__agro {
   grid-row: 2/3;
   grid-column: 3/4;
   position: relative;
@@ -794,14 +800,14 @@ p {
   width: 215px;
 }
 
-.awesome-products .awesome-products__wr-awesome-products .awesome-products__shadow {
+.organic-food .organic-food__shadow {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.05)));
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.05));
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.05));
   height: 100%;
 }
 
-.awesome-products .awesome-products__wr-awesome-products .awesome-products__title {
+.organic-food .organic-food__product-title {
   position: absolute;
   bottom: 25px;
   left: 30px;
@@ -810,7 +816,7 @@ p {
 }
 
 .triptych {
-  margin-top: 185px;
+  margin-top: 80px;
   min-height: 555px;
 }
 
@@ -1448,15 +1454,15 @@ p {
   color: #7E7E7E;
 }
 
-.webp .organic-food{ background-image: url(../media/bg-organic-food.webp); }
+.webp .organic-food .organic-food__bg{ background-image: url(../media/bg-organic-food.webp); }
 
-.webp .awesome-products .awesome-products__wr-awesome-products .awesome-products__sweets{ background: url(../media/awesome-products/ap-muffins.webp) no-repeat; }
+.webp .organic-food .organic-food__sweets{ background: url(../media/awesome-products/ap-muffins.webp) no-repeat; }
 
-.webp .awesome-products .awesome-products__wr-awesome-products .awesome-products__food{ background: url(../media/awesome-products/ap-salad.webp) no-repeat; }
+.webp .organic-food .organic-food__food{ background: url(../media/awesome-products/ap-salad.webp) no-repeat; }
 
-.webp .awesome-products .awesome-products__wr-awesome-products .awesome-products__meat{ background: url(../media/awesome-products/ap-meat.webp) no-repeat; }
+.webp .organic-food .organic-food__meat{ background: url(../media/awesome-products/ap-meat.webp) no-repeat; }
 
-.webp .awesome-products .awesome-products__wr-awesome-products .awesome-products__fruts{ background: url(../media/awesome-products/ap-berries.webp) no-repeat; }
+.webp .organic-food .organic-food__fruts{ background: url(../media/awesome-products/ap-berries.webp) no-repeat; }
 
 .webp .perfect{ background-image: url(../media/perfect/bg-perfect.webp); }
 
