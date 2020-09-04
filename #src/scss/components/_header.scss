@@ -33,6 +33,7 @@
         &:hover {
             border-bottom: 2px $color-mustard solid;
             cursor: pointer;
+            transition: .7s;
         }
         
         a {

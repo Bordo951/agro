@@ -457,6 +457,16 @@ template,
           box-sizing: border-box;
 }
 
+.footer__container {
+  max-width: 675px;
+  width: 100%;
+  margin-left: 175px;
+  margin-right: 60px;
+  padding-top: 75px;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 li {
   list-style-type: none;
 }
@@ -525,23 +535,27 @@ p {
   color: #4FB1C9;
 }
 
+.text_silver {
+  color: #C4C4C4;
+}
+
 .svg-cakes-organic-dims {
   width: 235px;
   height: 235px;
 }
 
 .svg-ico-fb-dims {
-  width: 9px;
-  height: 17px;
+  width: 24px;
+  height: 16px;
 }
 
 .svg-ico-lin-dims {
-  width: 17px;
-  height: 17px;
+  width: 24px;
+  height: 16px;
 }
 
 .svg-ico-twitter-dims {
-  width: 23px;
+  width: 24px;
   height: 16px;
 }
 
@@ -669,6 +683,9 @@ p {
 .header .header__nav-list__item:hover {
   border-bottom: 2px #fcdb5a solid;
   cursor: pointer;
+  -webkit-transition: .7s;
+  -o-transition: .7s;
+  transition: .7s;
 }
 
 .header .header__nav-list__item a {
@@ -1319,6 +1336,109 @@ p {
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 105px;
+}
+
+.footer {
+  margin-top: 95px;
+  background-color: #333333;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.footer .footer__wr-navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.footer .footer__logo {
+  width: 100px;
+  height: 135px;
+  background-color: #fcdb5a;
+  margin-right: 120px;
+}
+
+.footer .footer__navigation {
+  margin-top: 0;
+  margin-right: 45px;
+}
+
+.footer .footer__navigation .navigation__item {
+  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 30px;
+  color: #aaaaaa;
+  border-bottom: 2px transparent solid;
+  cursor: pointer;
+}
+
+.footer .footer__navigation .navigation__item:hover {
+  border-bottom: 2px #fcdb5a solid;
+  -webkit-transition: .7s;
+  -o-transition: .7s;
+  transition: .7s;
+}
+
+.footer .footer__wr-contacts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__contacts-title {
+  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  text-transform: uppercase;
+  line-height: 25px;
+  color: #FDE557;
+  margin-bottom: 10px;
+}
+
+.footer .footer__contacts {
+  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 23px;
+}
+
+.footer .footer__wr-cocial {
+  padding-top: 30px;
+}
+
+.footer .footer__icon:hover {
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s;
+  -webkit-transform: scale(1.4);
+      -ms-transform: scale(1.4);
+          transform: scale(1.4);
+}
+
+.footer .footer__line {
+  margin-top: 55px;
+  margin-bottom: 35px;
+  background-color: #464646;
+  height: 1px;
+}
+
+.footer .footer_wr-copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.footer .footer__copyright {
+  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  line-height: 15px;
+  color: #7E7E7E;
 }
 
 .webp .organic-food{ background-image: url(../media/bg-organic-food.webp); }
