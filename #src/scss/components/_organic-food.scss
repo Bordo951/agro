@@ -3,19 +3,16 @@
 
   .organic-food__bg {
     background-image: url("../media/bg-organic-food.jpg");
-    padding-bottom: 785px;
+    padding-bottom: 920px;
     background-size: cover;
     background-position: top;
     position: relative;
     clip-path: polygon(0 0,100% 0,100% 77%,0 100%);
   }
 
-  .organic-food__wr-title {
-    max-width: 520px;
-    padding-top: 170px;
-  }
-
   .organic-food__title {
+    max-width: 520px;
+    padding-top: 300px;
     font-family: Storytella, Arial, Helvetica, sans-serif;
     font-weight: 400;
     color: $color-white;
@@ -32,7 +29,7 @@
   .organic-food__products {
     display: grid;
     grid-template-rows: 310px 370px;
-    grid-template-columns: [left-gutter] 1fr 380px 385px 115px 500px [right-gutter] 1fr;
+    grid-template-columns: 1fr 380px 385px 115px 500px 1fr;
   }
   
   .organic-food__item {
