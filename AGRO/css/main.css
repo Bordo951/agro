@@ -651,8 +651,15 @@ p {
 }
 
 .header .header__logo {
-  position: fixed;
+  position: absolute;
   top: -25px;
+  -webkit-transition: .7s;
+  -o-transition: .7s;
+  transition: .7s;
+}
+
+.header .header__logo:hover {
+  top: 0;
 }
 
 .header .header__wr-header {
