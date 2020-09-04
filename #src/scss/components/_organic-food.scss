@@ -2,8 +2,8 @@
   position: relative;
 
   .organic-food__bg {
-    height: 1630px; /* @todo: think about dynamic height*/
     background-image: url("../media/bg-organic-food.jpg");
+    padding-bottom: 785px;
     background-size: cover;
     background-position: top;
     position: relative;
@@ -12,8 +12,7 @@
 
   .organic-food__wr-title {
     max-width: 520px;
-    position: absolute;
-    top: 170px;
+    padding-top: 170px;
   }
 
   .organic-food__title {
@@ -26,7 +25,7 @@
 
   .organic-food__wr-products {
     position: absolute;
-    bottom: 105px;
+    bottom: 95px;
     width: 100%;
   }
 
