@@ -40,6 +40,12 @@
     background-size: contain; 
     cursor: pointer;
     position: relative; 
+
+    &:hover {
+      .organic-food__shadow {
+        background-color: $color-black-a3;
+      }
+    }
   }
 
   .organic-food__sweets {
@@ -78,6 +84,7 @@
   .organic-food__shadow {
     background: linear-gradient(0deg, $color-black-a7, $color-black-a05);
     height: 100%;
+    transition: .7s;
   }
 
   .organic-food__product-title {
