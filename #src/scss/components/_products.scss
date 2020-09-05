@@ -1,48 +1,49 @@
-.organic-food {
+.products {
   position: relative;
 
-  .organic-food__bg {
+  &__bg {
     background-image: url("../media/bg-organic-food.jpg");
-    padding-bottom: 920px;
-    background-size: cover;
     background-position: top;
-    position: relative;
+    background-size: cover;
     clip-path: polygon(0 0,100% 0,100% 77%,0 100%);
+    padding-bottom: 920px;
+    position: relative;
   }
 
-  .organic-food__title {
+  &__title {
+    color: $color-white;
+    font-family: $font-storytella;
+    font-size: 200px;
+    font-weight: 400;
+    line-height: 200px;
     max-width: 520px;
     padding-top: 300px;
-    font-family: Storytella, Arial, Helvetica, sans-serif;
-    font-weight: 400;
-    color: $color-white;
-    font-size: 200px;
-    line-height: 200px;
   }
 
-  .organic-food__wr-products {
-    position: absolute;
+  &__wrapper {
     bottom: 95px;
+    position: absolute;
     width: 100%;
   }
 
-  .organic-food__products {
+  &__list {
     display: grid;
-    grid-template-rows: 310px 370px;
     grid-template-columns: 1fr 380px 385px 115px 500px 1fr;
+    grid-template-rows: 310px 370px;
   }
   
-  .organic-food__item {
+  &__item {
     background-size: contain; 
     cursor: pointer;
-    position: relative; 
+    position: relative;
+
     &:before {
-      content: '';
       background: linear-gradient(0deg, $color-black-a7, $color-black-a05);
+      content: '';
       height: 100%;
+      position: absolute;
       transition: .7s;
       width: 100%;
-      position: absolute;
     }
 
     &:hover {
@@ -52,44 +53,44 @@
     }
   }
 
-  .organic-food__sweets {
-    grid-row: 1/3;
-    grid-column: 2/3;
+  &__sweets {
     background: url("../media/awesome-products/ap-muffins.jpg") no-repeat;
+    grid-column: 2/3;
+    grid-row: 1/3;
   }
 
-  .organic-food__food {
-    grid-row: 1/2;
-    grid-column: 3/5;
+  &__food {
     background: url("../media/awesome-products/ap-salad.jpg") no-repeat;
-  }
-
-  .organic-food__meat {
+    grid-column: 3/5;
     grid-row: 1/2;
-    grid-column: 5/6;
+  }
+
+  &__meat {
     background: url("../media/awesome-products/ap-meat.jpg") no-repeat;
+    grid-column: 5/6;
+    grid-row: 1/2;
   }
 
-  .organic-food__fruts {
-    grid-row: 2/3;
-    grid-column: 4/6;
+  &__fruts {
     background: url("../media/awesome-products/ap-berries.jpg") no-repeat;
+    grid-column: 4/6;
+    grid-row: 2/3;
   }
 
-  .organic-food__agro {
-    grid-row: 2/3;
+  &__agro {
     grid-column: 3/4;
-    position: relative;
-    padding-top: 80px;
+    grid-row: 2/3;
     padding-left: 90px;
+    padding-top: 80px;
+    position: relative;
     width: 215px;
   }
 
-  .organic-food__product-title {
-    position: absolute;
+  &__item-title {
     bottom: 25px;
+    font-size: 30px;
     left: 30px;
     line-height: 30px;
-    font-size: 30px;
+    position: absolute;
   }
 }

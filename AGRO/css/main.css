@@ -717,104 +717,104 @@ p {
   width: 155px;
 }
 
-.organic-food {
+.products {
   position: relative;
 }
 
-.organic-food .organic-food__bg {
+.products__bg {
   background-image: url("../media/bg-organic-food.jpg");
-  padding-bottom: 920px;
-  background-size: cover;
   background-position: top;
-  position: relative;
+  background-size: cover;
   -webkit-clip-path: polygon(0 0, 100% 0, 100% 77%, 0 100%);
           clip-path: polygon(0 0, 100% 0, 100% 77%, 0 100%);
+  padding-bottom: 920px;
+  position: relative;
 }
 
-.organic-food .organic-food__title {
+.products__title {
+  color: #fff;
+  font-family: Storytella, Arial, Helvetica, sans-serif;
+  font-size: 200px;
+  font-weight: 400;
+  line-height: 200px;
   max-width: 520px;
   padding-top: 300px;
-  font-family: Storytella, Arial, Helvetica, sans-serif;
-  font-weight: 400;
-  color: #fff;
-  font-size: 200px;
-  line-height: 200px;
 }
 
-.organic-food .organic-food__wr-products {
-  position: absolute;
+.products__wrapper {
   bottom: 95px;
+  position: absolute;
   width: 100%;
 }
 
-.organic-food .organic-food__products {
+.products__list {
   display: grid;
-  grid-template-rows: 310px 370px;
   grid-template-columns: 1fr 380px 385px 115px 500px 1fr;
+  grid-template-rows: 310px 370px;
 }
 
-.organic-food .organic-food__item {
+.products__item {
   background-size: contain;
   cursor: pointer;
   position: relative;
 }
 
-.organic-food .organic-food__item:before {
-  content: '';
+.products__item:before {
   background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(2, 1, 1, 0.05)));
   background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(2, 1, 1, 0.05));
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(2, 1, 1, 0.05));
+  content: '';
   height: 100%;
+  position: absolute;
   -webkit-transition: .7s;
   -o-transition: .7s;
   transition: .7s;
   width: 100%;
-  position: absolute;
 }
 
-.organic-food .organic-food__item:hover:before {
+.products__item:hover:before {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
-.organic-food .organic-food__sweets {
-  grid-row: 1/3;
-  grid-column: 2/3;
+.products__sweets {
   background: url("../media/awesome-products/ap-muffins.jpg") no-repeat;
+  grid-column: 2/3;
+  grid-row: 1/3;
 }
 
-.organic-food .organic-food__food {
-  grid-row: 1/2;
-  grid-column: 3/5;
+.products__food {
   background: url("../media/awesome-products/ap-salad.jpg") no-repeat;
-}
-
-.organic-food .organic-food__meat {
+  grid-column: 3/5;
   grid-row: 1/2;
-  grid-column: 5/6;
+}
+
+.products__meat {
   background: url("../media/awesome-products/ap-meat.jpg") no-repeat;
+  grid-column: 5/6;
+  grid-row: 1/2;
 }
 
-.organic-food .organic-food__fruts {
-  grid-row: 2/3;
-  grid-column: 4/6;
+.products__fruts {
   background: url("../media/awesome-products/ap-berries.jpg") no-repeat;
+  grid-column: 4/6;
+  grid-row: 2/3;
 }
 
-.organic-food .organic-food__agro {
-  grid-row: 2/3;
+.products__agro {
   grid-column: 3/4;
-  position: relative;
-  padding-top: 80px;
+  grid-row: 2/3;
   padding-left: 90px;
+  padding-top: 80px;
+  position: relative;
   width: 215px;
 }
 
-.organic-food .organic-food__product-title {
-  position: absolute;
+.products__item-title {
   bottom: 25px;
+  font-size: 30px;
   left: 30px;
   line-height: 30px;
-  font-size: 30px;
+  position: absolute;
 }
 
 .triptych {
@@ -1452,15 +1452,15 @@ p {
   color: #7E7E7E;
 }
 
-.webp .organic-food .organic-food__bg{ background-image: url(../media/bg-organic-food.webp); }
+.webp .products__bg{ background-image: url(../media/bg-organic-food.webp); }
 
-.webp .organic-food .organic-food__sweets{ background: url(../media/awesome-products/ap-muffins.webp) no-repeat; }
+.webp .products__sweets{ background: url(../media/awesome-products/ap-muffins.webp) no-repeat; }
 
-.webp .organic-food .organic-food__food{ background: url(../media/awesome-products/ap-salad.webp) no-repeat; }
+.webp .products__food{ background: url(../media/awesome-products/ap-salad.webp) no-repeat; }
 
-.webp .organic-food .organic-food__meat{ background: url(../media/awesome-products/ap-meat.webp) no-repeat; }
+.webp .products__meat{ background: url(../media/awesome-products/ap-meat.webp) no-repeat; }
 
-.webp .organic-food .organic-food__fruts{ background: url(../media/awesome-products/ap-berries.webp) no-repeat; }
+.webp .products__fruts{ background: url(../media/awesome-products/ap-berries.webp) no-repeat; }
 
 .webp .perfect{ background-image: url(../media/perfect/bg-perfect.webp); }
 
