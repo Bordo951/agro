@@ -21,8 +21,8 @@
         margin-right: 10px;
     }
 
-    .about__text {        
-        font-family: 'Times New Roman', Times, serif;
+    .about__text {
+        font-family: $font-times-nr;
         font-style: italic;
         font-size: 25px;
         color: $color-white;
@@ -57,13 +57,13 @@
         }
 
         .slider-box__person-about {
-        font-family: Raleway-Regular, Arial, Helvetica, sans-serif;
-        font-size: 18px;
-        color: $color-white;
-        line-height: 23px;
-        overflow: hidden;
-        text-overflow: clip;
-        margin: 25px 0 0 20px;
+            font-family: Raleway-Regular, Arial, Helvetica, sans-serif;
+            font-size: 18px;
+            color: $color-white;
+            line-height: 23px;
+            overflow: hidden;
+            text-overflow: clip;
+            margin: 25px 0 0 20px;
         }
 
         .slider-box__person-about_bold {
@@ -85,9 +85,9 @@
 
             &.slider-control_active,
             &:hover {
-              background-color: $color-mustard;
-              border-color: $color-mustard;
-          }  
+                background-color: $color-mustard;
+                border-color: $color-mustard;
+            }
         }
     }
 }

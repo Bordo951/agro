@@ -1,8 +1,8 @@
 .discover {
-    background-image: url("../media/perfect/bg-perfect.jpg");
+    background-image: url("../media/discover/bg-discover.jpg");
     background-position: top;
     background-size: cover;
-       
+
     &__wr-title {
         padding-bottom: 220px;
         padding-top: 140px;
@@ -11,7 +11,7 @@
     &__title {
         margin-bottom: 20px;
     }
-    
+
     &__subtitle {
         color: $color-dark-silver;
         font-family: $font-open-sr;
