@@ -761,7 +761,20 @@ p {
   position: relative;
 }
 
-.organic-food .organic-food__item:hover .organic-food__shadow {
+.organic-food .organic-food__item:before {
+  content: '';
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(2, 1, 1, 0.05)));
+  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(2, 1, 1, 0.05));
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(2, 1, 1, 0.05));
+  height: 100%;
+  -webkit-transition: .7s;
+  -o-transition: .7s;
+  transition: .7s;
+  width: 100%;
+  position: absolute;
+}
+
+.organic-food .organic-food__item:hover:before {
   background-color: rgba(0, 0, 0, 0.3);
 }
 
@@ -798,16 +811,6 @@ p {
   width: 215px;
 }
 
-.organic-food .organic-food__shadow {
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.7)), to(rgba(2, 1, 1, 0.05)));
-  background: -o-linear-gradient(bottom, rgba(0, 0, 0, 0.7), rgba(2, 1, 1, 0.05));
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.7), rgba(2, 1, 1, 0.05));
-  height: 100%;
-  -webkit-transition: .7s;
-  -o-transition: .7s;
-  transition: .7s;
-}
-
 .organic-food .organic-food__product-title {
   position: absolute;
   bottom: 25px;
@@ -817,44 +820,47 @@ p {
 }
 
 .triptych {
-  margin-top: 90px;
-  min-height: 555px;
-}
-
-.triptych .triptych__wr-triptych {
+  padding-top: 90px;
   position: relative;
 }
 
-.triptych .triptych__element {
-  position: absolute;
+.triptych .triptych__images {
+  position: relative;
 }
 
 .triptych .triptych__gradient {
+  position: absolute;
   top: -35px;
-  right: 425px;
+  left: 425px;
 }
 
 .triptych .triptych__wood-top {
+  position: absolute;
   top: -15px;
-  right: 450px;
+  left: 460px;
 }
 
 .triptych .triptych__text {
   width: 515px;
-  top: 30px;
-  right: 15px;
+  top: 115px;
+  right: 175px;
   font-family: Storytella,Arial,Helvetica,sans-serif;
   font-size: 100px;
   font-weight: 400;
   line-height: 100px;
+  position: absolute;
 }
 
 .triptych .right-gutter {
   margin-right: 15px;
 }
 
+.services {
+  margin-bottom: 125px;
+}
+
 .services .services__wr-title {
-  margin-top: 90px;
+  padding-top: 145px;
 }
 
 .services .services__title {
@@ -879,8 +885,6 @@ p {
 }
 
 .perfect {
-  height: 695px;
-  margin-top: 120px;
   background-image: url("../media/perfect/bg-perfect.jpg");
   background-size: cover;
   background-position: top;
@@ -888,6 +892,7 @@ p {
 
 .perfect .perfect__wr-title {
   padding-top: 140px;
+  padding-bottom: 220px;
 }
 
 .perfect .perfect__title {
@@ -925,7 +930,7 @@ p {
 .perfect-food .perfect-food__grid-table {
   display: grid;
   grid-template-rows: repeat(2, 220px);
-  grid-template-columns: repeat(3, 292px) 294px;
+  grid-template-columns: repeat(4, 1fr);
   cursor: pointer;
   position: relative;
   top: -115px;
@@ -1011,12 +1016,8 @@ p {
 .tasty {
   background-color: #f9f9f9;
   position: relative;
-}
-
-.tasty .tasty__background {
   background-image: url("../media/bg-tasty-cakes.png");
   background-repeat: no-repeat;
-  height: 715px;
   background-position: bottom right;
 }
 
@@ -1027,9 +1028,8 @@ p {
 }
 
 .tasty .tasty__title {
-  position: absolute;
-  left: 185px;
-  bottom: 200px;
+  padding-top: 160px;
+  padding-bottom: 195px;
   max-width: 430px;
   font-family: Storytella, Arial, Helvetica, sans-serif;
   font-size: 230px;
@@ -1040,6 +1040,7 @@ p {
 
 .progress .progress__wr-title {
   margin-top: 140px;
+  margin-bottom: 70px;
 }
 
 .progress .progress__title {
@@ -1050,17 +1051,15 @@ p {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: start;
-      -ms-flex-pack: start;
-          justify-content: flex-start;
-  padding-top: 70px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .progress .progress__icons-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin-right: 115px;
 }
 
 .progress .progress__icon {
@@ -1082,7 +1081,7 @@ p {
 }
 
 .tasty-food {
-  margin-top: 130px;
+  padding-top: 130px;
   display: grid;
   grid-template-rows: repeat(2, 370px);
   grid-template-columns: repeat(4, 1fr);
@@ -1475,6 +1474,6 @@ p {
 
 .webp .perfect-food .perfect-food__bg-tips{ background-image: url(../media/perfect/yogurt.webp); }
 
-.webp .tasty .tasty__background{ background-image: url(../media/bg-tasty-cakes.webp); }
+.webp .tasty{ background-image: url(../media/bg-tasty-cakes.webp); }
 
 .webp .about{ background-image: url(../media/about/bg-about.webp); }

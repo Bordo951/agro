@@ -1,6 +1,7 @@
 .progress {
     .progress__wr-title {
         margin-top: 140px;
+        margin-bottom: 70px;
     } 
 
     .progress__title {
@@ -9,13 +10,11 @@
 
     .progress__wr-icons-row {
         display: flex;
-        justify-content: flex-start;
-        padding-top: 70px;
+        justify-content: space-between;
     }
 
     .progress__icons-row {
         display: flex;
-        margin-right: 115px;
     }
 
     .progress__icon {

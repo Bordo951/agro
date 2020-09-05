@@ -36,9 +36,17 @@
     background-size: contain; 
     cursor: pointer;
     position: relative; 
+    &:before {
+      content: '';
+      background: linear-gradient(0deg, $color-black-a7, $color-black-a05);
+      height: 100%;
+      transition: .7s;
+      width: 100%;
+      position: absolute;
+    }
 
     &:hover {
-      .organic-food__shadow {
+      &:before {
         background-color: $color-black-a3;
       }
     }
@@ -75,12 +83,6 @@
     padding-top: 80px;
     padding-left: 90px;
     width: 215px;
-  }
-
-  .organic-food__shadow {
-    background: linear-gradient(0deg, $color-black-a7, $color-black-a05);
-    height: 100%;
-    transition: .7s;
   }
 
   .organic-food__product-title {

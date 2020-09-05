@@ -5,7 +5,7 @@
     .perfect-food__grid-table {
         display: grid;
         grid-template-rows: repeat(2, 220px);
-        grid-template-columns: repeat(3, 292px) 294px;
+        grid-template-columns: repeat(4, 1fr);
         cursor: pointer;
         position: relative;
         top: -115px;
