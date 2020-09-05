@@ -20,7 +20,7 @@
         margin-right: 45px;
 
         .navigation__item {
-            font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
+            font-family: $font-open-sr;
             font-size: 14px;
             line-height: 30px;
             color: $color-white-aluminum;
@@ -40,7 +40,7 @@
     }
 
     .footer__contacts-title {
-        font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+        font-family: $font-raleway-bold;
         font-size: 12px;
         text-transform: uppercase;
         line-height: 25px;
@@ -49,7 +49,7 @@
     }
 
     .footer__contacts {
-        font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
+        font-family: $font-open-sr;
         font-size: 14px;
         line-height: 23px;
     }
@@ -78,7 +78,7 @@
     }
 
     .footer__copyright {
-        font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
+        font-family: $font-open-sr;
         font-size: 13px;
         line-height: 15px;
         color: $color-gray;

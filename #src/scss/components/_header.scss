@@ -1,12 +1,12 @@
 .header {
-    width: 100%;
-    position: fixed;
-    z-index: 10;
-    border-bottom: 1px solid rgba(255, 255, 255, .3);
-    height: 110px;
     background: linear-gradient(180deg, $color-black-a7, $color-black-a05);
+    border-bottom: 1px solid $color-white-a3;
+    height: 110px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
 
-    .header__logo {
+    &__logo {
         position: absolute;
         top: -25px;
         transition: .7s;
@@ -16,55 +16,49 @@
         }
     }
 
-    .header__wr-header {
-        display: flex;
-        position: relative;
-    }
-
-    .header__navigation {
+    &__navigation {
         margin-left: 100px;
     }
 
-    .header__nav-list {
+    &__menu {
         display: flex;
         margin: 0;
     }
 
-    .header__nav-list__item {
-        margin-left: 29px;
-        padding-top: 49px;
-        padding-bottom: 40px;
+    &__menu-item {
         border-bottom: 2px transparent solid;
-        &:hover {
-            border-bottom: 2px $color-mustard solid;
-            cursor: pointer;
-            transition: .7s;
-        }
+        margin-left: 29px;
+        padding: 49px 0 40px;
         
-        a {
-            font-family: "OpenSans-Regular", Arial, Helvetica, sans-serif;
-            font-size: 14px;
-            line-height: 20px;
-            color: $color-white;
-            height: 100%;
-            padding: 35px 0;
+        &:hover {
+            border-color: $color-mustard;
+            transition: .7s;
         }
     }
 
-    .header__call-to-action {
-        position: absolute;
-        right: 15px;
-        top: 37px;
-        height: 45px;
-        width: 155px;
+    &__menu-link {
+        color: $color-white;
+        font-family: $font-open-sr;
+        font-size: 14px;
+        height: 100%;
+        line-height: 20px;
+        padding: 50px 0 42px;
+    }
+
+    &__regiter {
+        background-color: $color-white;
         border-radius: 22px;
         border: none;
-        background-color: $color-white;
-        font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
         color: $color-dark-gray;
-        font-size: 12px;
-        text-transform: uppercase;
         cursor: pointer;
+        font-family: $font-raleway-bold;
+        font-size: 12px;
+        height: 45px;
+        position: absolute;
+        right: 15px;
+        text-transform: uppercase;
+        top: 37px;
+        width: 155px;
     }
 }
 

@@ -14,7 +14,7 @@
     
     .perfect__subtitle {
         max-width: 550px;
-        font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
+        font-family: $font-open-sr;
         font-size: 14px;
         color: $color-dark-silver;
         line-height: 23px;
@@ -27,7 +27,7 @@
         border-radius: 26px;
         border: none;
         background-color: $color-mustard;
-        font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+        font-family: $font-raleway-bold;
         color: $color-marsh;
         font-size: 12px;
         line-height: 20px;

@@ -50,14 +50,14 @@
     }
 
     .perfect-food__table-title {
-        font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+        font-family: $font-raleway-bold;
         color: $color-signal-black;
         font-size: 18px;
         line-height: 23px;
     }
 
     .perfect-food__table-subtitle {
-        font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
+        font-family: $font-open-sr;
         color: $color-light-black;
         font-size: 14px;
         line-height: 23px;
