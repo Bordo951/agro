@@ -10,9 +10,7 @@
 
     &__title {
         color: $color-light-mocco;
-        font-family: $font-storytella;
-        font-size: 230px;
-        line-height: 180px;
+        font: 230px/180px $font-storytella;
         max-width: 430px;
         padding: 160px 0 195px;
         z-index: 5;

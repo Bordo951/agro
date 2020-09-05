@@ -19,10 +19,8 @@
     }
 
     &__text {
-        font-family: $font-storytella;
-        font-size: 100px;
+        font: 100px/100px $font-storytella;
         font-weight: 400;
-        line-height: 100px;
         position: absolute;
         right: 175px;
         top: 115px;

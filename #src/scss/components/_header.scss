@@ -38,10 +38,8 @@
 
     &__menu-link {
         color: $color-white;
-        font-family: $font-open-sr;
-        font-size: 14px;
+        font: 14px/20px $font-open-sr;
         height: 100%;
-        line-height: 20px;
         padding: 50px 0 42px;
     }
 
@@ -51,8 +49,7 @@
         border: none;
         color: $color-dark-gray;
         cursor: pointer;
-        font-family: $font-raleway-bold;
-        font-size: 12px;
+        font: 12px $font-raleway-bold;
         height: 45px;
         position: absolute;
         right: 15px;

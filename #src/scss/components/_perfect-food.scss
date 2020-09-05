@@ -51,17 +51,13 @@
 
     &__table-title {
         color: $color-signal-black;
-        font-family: $font-raleway-bold;
-        font-size: 18px;
-        line-height: 23px;
+        font: 18px/23px $font-raleway-bold;
     }
 
     &__table-subtitle {
         color: $color-light-black;
-        font-family: $font-open-sr;
-        font-size: 14px;
+        font: 14px/23px $font-open-sr;
         height: 65px;
-        line-height: 23px;
         overflow: hidden;
         text-overflow: clip;
         white-space: pre-wrap;

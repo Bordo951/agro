@@ -698,10 +698,8 @@ p {
 
 .header__menu-link {
   color: #fff;
-  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font: 14px/20px OpenSans-Regular, Arial, Helvetica, sans-serif;
   height: 100%;
-  line-height: 20px;
   padding: 50px 0 42px;
 }
 
@@ -711,8 +709,7 @@ p {
   border: none;
   color: #1b1b1b;
   cursor: pointer;
-  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font: 12px Raleway-Bold, Arial, Helvetica, sans-serif;
   height: 45px;
   position: absolute;
   right: 15px;
@@ -737,10 +734,8 @@ p {
 
 .products__title {
   color: #fff;
-  font-family: Storytella, Arial, Helvetica, sans-serif;
-  font-size: 200px;
+  font: 200px/200px Storytella, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  line-height: 200px;
   max-width: 520px;
   padding-top: 300px;
 }
@@ -843,10 +838,8 @@ p {
 }
 
 .triptych__text {
-  font-family: Storytella, Arial, Helvetica, sans-serif;
-  font-size: 100px;
+  font: 100px/100px Storytella, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  line-height: 100px;
   position: absolute;
   right: 175px;
   top: 115px;
@@ -876,9 +869,7 @@ p {
 
 .column__icon-title {
   color: #333333;
-  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  line-height: 50px;
+  font: 16px/50px Raleway-Bold, Arial, Helvetica, sans-serif;
   margin-top: 10px;
   display: inline-block;
 }
@@ -900,9 +891,7 @@ p {
 
 .discover__subtitle {
   color: #c5c5c5;
-  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 23px;
+  font: 14px/23px OpenSans-Regular, Arial, Helvetica, sans-serif;
   max-width: 550px;
 }
 
@@ -912,10 +901,8 @@ p {
   border: none;
   color: #4f4a37;
   cursor: pointer;
-  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font: 12px/20px Raleway-Bold, Arial, Helvetica, sans-serif;
   height: 55px;
-  line-height: 20px;
   margin-top: 45px;
   text-transform: uppercase;
   width: 160px;
@@ -975,17 +962,13 @@ p {
 
 .perfect-food__table-title {
   color: #333333;
-  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
-  font-size: 18px;
-  line-height: 23px;
+  font: 18px/23px Raleway-Bold, Arial, Helvetica, sans-serif;
 }
 
 .perfect-food__table-subtitle {
   color: #666666;
-  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
-  font-size: 14px;
+  font: 14px/23px OpenSans-Regular, Arial, Helvetica, sans-serif;
   height: 65px;
-  line-height: 23px;
   overflow: hidden;
   -o-text-overflow: clip;
      text-overflow: clip;
@@ -1025,24 +1008,22 @@ p {
 
 .tasty__title {
   color: #ccaf8a;
-  font-family: Storytella, Arial, Helvetica, sans-serif;
-  font-size: 230px;
-  line-height: 180px;
+  font: 230px/180px Storytella, Arial, Helvetica, sans-serif;
   max-width: 430px;
   padding: 160px 0 195px;
   z-index: 5;
 }
 
-.progress .progress__wr-title {
-  margin-top: 140px;
+.progress__wr-title {
   margin-bottom: 70px;
+  margin-top: 140px;
 }
 
-.progress .progress__title {
+.progress__title {
   margin-bottom: 10px;
 }
 
-.progress .progress__wr-icons-row {
+.progress__wr-icons-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1051,28 +1032,24 @@ p {
           justify-content: space-between;
 }
 
-.progress .progress__icons-row {
+.progress__icons-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-.progress .progress__icon {
+.progress__icon {
   margin-right: 20px;
 }
 
-.progress .progress__icon-counter {
-  font-family: Gilroy-Extrabold, Arial, Helvetica, sans-serif;
-  font-size: 50px;
+.progress__icon-counter {
   color: #2e211d;
-  line-height: 50px;
+  font: 50px/50px Gilroy-Extrabold, Arial, Helvetica, sans-serif;
 }
 
-.progress .progress__icon-title {
-  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
-  font-size: 16px;
+.progress__icon-title {
   color: #555555;
-  line-height: 50px;
+  font: 16px/50px Raleway-Bold, Arial, Helvetica, sans-serif;
 }
 
 .tasty-food {
@@ -1159,11 +1136,9 @@ p {
 }
 
 .about .about__text {
-  font-family: "Times New Roman", Times, serif;
+  font: 25px/30px "Times New Roman", Times, serif;
   font-style: italic;
-  font-size: 25px;
   color: #fff;
-  line-height: 30px;
   overflow: hidden;
   -o-text-overflow: clip;
      text-overflow: clip;
@@ -1374,9 +1349,7 @@ p {
 }
 
 .footer .footer__navigation .navigation__item {
-  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 30px;
+  font: 14px/20px OpenSans-Regular, Arial, Helvetica, sans-serif;
   color: #aaaaaa;
   border-bottom: 2px transparent solid;
   cursor: pointer;
@@ -1399,18 +1372,14 @@ p {
 }
 
 .footer .footer__contacts-title {
-  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
-  font-size: 12px;
+  font: 12px/25px Raleway-Bold, Arial, Helvetica, sans-serif;
   text-transform: uppercase;
-  line-height: 25px;
   color: #FDE557;
   margin-bottom: 10px;
 }
 
 .footer .footer__contacts {
-  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 23px;
+  font: 14px/23px OpenSans-Regular, Arial, Helvetica, sans-serif;
 }
 
 .footer .footer__wr-cocial {
@@ -1443,9 +1412,7 @@ p {
 }
 
 .footer .footer__copyright {
-  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
-  font-size: 13px;
-  line-height: 15px;
+  font: 13px/15px OpenSans-Regular, Arial, Helvetica, sans-serif;
   color: #7E7E7E;
 }
 

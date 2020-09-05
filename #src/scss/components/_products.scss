@@ -12,10 +12,8 @@
 
     &__title {
         color: $color-white;
-        font-family: $font-storytella;
-        font-size: 200px;
+        font: 200px/200px $font-storytella;
         font-weight: 400;
-        line-height: 200px;
         max-width: 520px;
         padding-top: 300px;
     }

@@ -1,37 +1,33 @@
 .progress {
-    .progress__wr-title {
-        margin-top: 140px;
+    &__wr-title {
         margin-bottom: 70px;
-    } 
+        margin-top: 140px;
+    }
 
-    .progress__title {
+    &__title {
         margin-bottom: 10px;
     }
 
-    .progress__wr-icons-row {
+    &__wr-icons-row {
         display: flex;
         justify-content: space-between;
     }
 
-    .progress__icons-row {
+    &__icons-row {
         display: flex;
     }
 
-    .progress__icon {
-         margin-right: 20px;
+    &__icon {
+        margin-right: 20px;
     }
 
-    .progress__icon-counter {
-        font-family: Gilroy-Extrabold, Arial, Helvetica, sans-serif;
-        font-size: 50px;
+    &__icon-counter {
         color: $color-dark-brown;
-        line-height: 50px;
+        font: 50px/50px $font-gilroy-eb;
     }
 
-    .progress__icon-title {
-        font-family: $font-raleway-bold;
-        font-size: 16px;
+    &__icon-title {
         color: $color-light-graphite;
-        line-height: 50px;
+        font: 16px/50px $font-raleway-bold;
     }
 }

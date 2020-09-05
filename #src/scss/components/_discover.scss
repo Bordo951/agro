@@ -14,9 +14,7 @@
 
     &__subtitle {
         color: $color-dark-silver;
-        font-family: $font-open-sr;
-        font-size: 14px;
-        line-height: 23px;
+        font: 14px/23px $font-open-sr;
         max-width: 550px;
     }
 
@@ -26,10 +24,8 @@
         border: none;
         color: $color-marsh;
         cursor: pointer;
-        font-family: $font-raleway-bold;
-        font-size: 12px;
+        font: 12px/20px $font-raleway-bold;
         height: 55px;
-        line-height: 20px;
         margin-top: 45px;
         text-transform: uppercase;
         width: 160px;

@@ -22,11 +22,9 @@
     }
 
     .about__text {
-        font-family: $font-times-nr;
+        font: 25px/30px $font-times-nr;
         font-style: italic;
-        font-size: 25px;
         color: $color-white;
-        line-height: 30px;
         overflow: hidden;
         text-overflow: clip;
         max-width: 985px;
