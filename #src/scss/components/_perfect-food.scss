@@ -1,89 +1,89 @@
 .perfect-food {
-    margin-top: 0;
     background-color: $color-smoky-white;
+    margin-top: 0;
 
-    .perfect-food__grid-table {
-        display: grid;
-        grid-template-rows: repeat(2, 220px);
-        grid-template-columns: repeat(4, 1fr);
+    &__grid-table {
         cursor: pointer;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 220px);
         position: relative;
         top: -115px;
         z-index: 5;
     }
 
-    .perfect-food__bg-superfood {
-        grid-row: 1/2;
-        grid-column: 1/2;
+    &__bg-superfood {
         background-image: url("../media/perfect/sandwiches.jpg");
-        background-size: cover;
         background-position: top;
-    }
-
-    .perfect-food__bg-grunt {
+        background-size: cover;
+        grid-column: 1/2;
         grid-row: 1/2;
-        grid-column: 3/4;
+    }
+
+    &__bg-grunt {
         background-image: url("../media/perfect/breakfast.jpg");
-        background-size: cover;
         background-position: top;
+        background-size: cover;
+        grid-column: 3/4;
+        grid-row: 1/2;
     }
-    
-    .perfect-food__bg-benefit {
-        grid-row: 2/3;
-        grid-column: 2/3;
+
+    &__bg-benefit {
         background-image: url("../media/perfect/pancakes.jpg");
-        background-size: cover;
         background-position: top;
-    }
-
-    .perfect-food__bg-tips {
+        background-size: cover;
+        grid-column: 2/3;
         grid-row: 2/3;
-        grid-column: 4/5;
-        background-image: url("../media/perfect/yogurt.jpg");
-        background-size: cover;
-        background-position: top;
     }
 
-    .wr-content {
+    &__bg-tips {
+        background-image: url("../media/perfect/yogurt.jpg");
+        background-position: top;
+        background-size: cover;
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+
+    &__content {
         background-color: $color-white;
         padding: 25px 35px;
     }
 
-    .perfect-food__table-title {
-        font-family: $font-raleway-bold;
+    &__table-title {
         color: $color-signal-black;
+        font-family: $font-raleway-bold;
         font-size: 18px;
         line-height: 23px;
     }
 
-    .perfect-food__table-subtitle {
-        font-family: $font-open-sr;
+    &__table-subtitle {
         color: $color-light-black;
+        font-family: $font-open-sr;
         font-size: 14px;
+        height: 65px;
         line-height: 23px;
-        white-space: pre-wrap;
         overflow: hidden;
         text-overflow: clip;
-        height: 65px;
+        white-space: pre-wrap;
     }
 
-    .perfect-food__benefit {
-        grid-row: 1/2;
+    &__benefit {
         grid-column: 2/3;
-    }
-
-    .perfect-food__tips {
         grid-row: 1/2;
+    }
+
+    &__tips {
         grid-column: 4/5;
+        grid-row: 1/2;
     }
 
-    .perfect-food__superfood {
-        grid-row: 2/3;
+    &__superfood {
         grid-column: 1/2;
+        grid-row: 2/3;
     }
 
-    .perfect-food__grunt {
-        grid-row: 2/3;
+    &__grunt {
         grid-column: 3/4;
+        grid-row: 2/3;
     }
 }

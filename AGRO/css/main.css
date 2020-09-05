@@ -922,118 +922,114 @@ p {
 }
 
 .perfect-food {
-  margin-top: 0;
   background-color: #f9f9f9;
+  margin-top: 0;
 }
 
-.perfect-food .perfect-food__grid-table {
-  display: grid;
-  grid-template-rows: repeat(2, 220px);
-  grid-template-columns: repeat(4, 1fr);
+.perfect-food__grid-table {
   cursor: pointer;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 220px);
   position: relative;
   top: -115px;
   z-index: 5;
 }
 
-.perfect-food .perfect-food__bg-superfood {
-  grid-row: 1/2;
-  grid-column: 1/2;
+.perfect-food__bg-superfood {
   background-image: url("../media/perfect/sandwiches.jpg");
-  background-size: cover;
   background-position: top;
-}
-
-.perfect-food .perfect-food__bg-grunt {
+  background-size: cover;
+  grid-column: 1/2;
   grid-row: 1/2;
-  grid-column: 3/4;
+}
+
+.perfect-food__bg-grunt {
   background-image: url("../media/perfect/breakfast.jpg");
-  background-size: cover;
   background-position: top;
+  background-size: cover;
+  grid-column: 3/4;
+  grid-row: 1/2;
 }
 
-.perfect-food .perfect-food__bg-benefit {
-  grid-row: 2/3;
-  grid-column: 2/3;
+.perfect-food__bg-benefit {
   background-image: url("../media/perfect/pancakes.jpg");
-  background-size: cover;
   background-position: top;
-}
-
-.perfect-food .perfect-food__bg-tips {
+  background-size: cover;
+  grid-column: 2/3;
   grid-row: 2/3;
-  grid-column: 4/5;
-  background-image: url("../media/perfect/yogurt.jpg");
-  background-size: cover;
-  background-position: top;
 }
 
-.perfect-food .wr-content {
+.perfect-food__bg-tips {
+  background-image: url("../media/perfect/yogurt.jpg");
+  background-position: top;
+  background-size: cover;
+  grid-column: 4/5;
+  grid-row: 2/3;
+}
+
+.perfect-food__content {
   background-color: #fff;
   padding: 25px 35px;
 }
 
-.perfect-food .perfect-food__table-title {
-  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+.perfect-food__table-title {
   color: #333333;
+  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
   font-size: 18px;
   line-height: 23px;
 }
 
-.perfect-food .perfect-food__table-subtitle {
-  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
+.perfect-food__table-subtitle {
   color: #666666;
+  font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
   font-size: 14px;
+  height: 65px;
   line-height: 23px;
-  white-space: pre-wrap;
   overflow: hidden;
   -o-text-overflow: clip;
      text-overflow: clip;
-  height: 65px;
+  white-space: pre-wrap;
 }
 
-.perfect-food .perfect-food__benefit {
-  grid-row: 1/2;
+.perfect-food__benefit {
   grid-column: 2/3;
-}
-
-.perfect-food .perfect-food__tips {
   grid-row: 1/2;
+}
+
+.perfect-food__tips {
   grid-column: 4/5;
+  grid-row: 1/2;
 }
 
-.perfect-food .perfect-food__superfood {
-  grid-row: 2/3;
+.perfect-food__superfood {
   grid-column: 1/2;
+  grid-row: 2/3;
 }
 
-.perfect-food .perfect-food__grunt {
-  grid-row: 2/3;
+.perfect-food__grunt {
   grid-column: 3/4;
+  grid-row: 2/3;
 }
 
 .tasty {
-  background-color: #f9f9f9;
+  background: #f9f9f9 url("../media/bg-tasty-cakes.png") bottom right no-repeat;
   position: relative;
-  background-image: url("../media/bg-tasty-cakes.png");
-  background-repeat: no-repeat;
-  background-position: bottom right;
 }
 
-.tasty .tasty__logo {
+.tasty__logo {
   position: absolute;
   right: 310px;
   top: 45px;
 }
 
-.tasty .tasty__title {
-  padding-top: 160px;
-  padding-bottom: 195px;
-  max-width: 430px;
+.tasty__title {
+  color: #ccaf8a;
   font-family: Storytella, Arial, Helvetica, sans-serif;
   font-size: 230px;
-  color: #ccaf8a;
   line-height: 180px;
+  max-width: 430px;
+  padding: 160px 0 195px;
   z-index: 5;
 }
 
@@ -1465,14 +1461,14 @@ p {
 
 .webp .discover{ background-image: url(../media/discover/bg-discover.webp); }
 
-.webp .perfect-food .perfect-food__bg-superfood{ background-image: url(../media/perfect/sandwiches.webp); }
+.webp .perfect-food__bg-superfood{ background-image: url(../media/perfect/sandwiches.webp); }
 
-.webp .perfect-food .perfect-food__bg-grunt{ background-image: url(../media/perfect/breakfast.webp); }
+.webp .perfect-food__bg-grunt{ background-image: url(../media/perfect/breakfast.webp); }
 
-.webp .perfect-food .perfect-food__bg-benefit{ background-image: url(../media/perfect/pancakes.webp); }
+.webp .perfect-food__bg-benefit{ background-image: url(../media/perfect/pancakes.webp); }
 
-.webp .perfect-food .perfect-food__bg-tips{ background-image: url(../media/perfect/yogurt.webp); }
+.webp .perfect-food__bg-tips{ background-image: url(../media/perfect/yogurt.webp); }
 
-.webp .tasty{ background-image: url(../media/bg-tasty-cakes.webp); }
+.webp .tasty{ background: #f9f9f9 url(../media/bg-tasty-cakes.webp) bottom right no-repeat; }
 
 .webp .about{ background-image: url(../media/about/bg-about.webp); }
