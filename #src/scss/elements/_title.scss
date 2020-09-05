@@ -1,11 +1,10 @@
 .title {
-    font-family: "Raleway-Thin", Arial, Helvetica, sans-serif;
+    font: 40px $font-raleway-thin;
     color: $color-signal-black;
-    font-size: 40px;
     text-transform: uppercase;
 
     .title_bold {
-        font-family: "Raleway-Black", Arial, Helvetica, sans-serif;
+        font-family: $font-raleway-black;
     }
 
     .title_block {
@@ -16,8 +15,7 @@
 .subtitle {
     max-width: 550px;
     margin: 0 auto;
-    font-family: OpenSans-Light, Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font: 18px $font-open-sl;
     color: $color-light-gray;
     line-height: 25px;
 }

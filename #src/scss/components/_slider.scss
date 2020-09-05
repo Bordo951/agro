@@ -18,9 +18,7 @@
 
     &__person-about {
         color: $color-white;
-        font-family: $font-raleway-r;
-        font-size: 18px;
-        line-height: 23px;
+        font: 18px/23px $font-raleway-r;
         margin: 25px 0 0 20px;
         overflow: hidden;
         text-overflow: clip;

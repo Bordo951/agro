@@ -1,8 +1,7 @@
 .about {
-    background-image: url("../media/about/bg-about.jpg");
-    height: 570px;
     background-size: cover;
-    background-position: top;
+    background: url("../media/about/bg-about.jpg") top;
+    height: 570px;
     padding-top: 140px;
 
     &__title {
@@ -22,8 +21,7 @@
     }
 
     &__text {
-        font: 25px/30px $font-times-nr;
-        font-style: italic;
+        font:italic 25px/30px $font-times-nr;
         color: $color-white;
         overflow: hidden;
         text-overflow: clip;
