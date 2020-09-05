@@ -1,3 +1,22 @@
+.section-title {
+    font: 40px $font-raleway-thin;
+    color: $color-signal-black;
+    text-transform: uppercase;
+
+    &_centered {
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    &_bold {
+        font-family: $font-raleway-black;
+    }
+
+    &_white {
+        color: $color-white;
+    }
+}
+
 .title {
     font: 40px $font-raleway-thin;
     color: $color-signal-black;
@@ -18,6 +37,14 @@
     font: 18px $font-open-sl;
     color: $color-light-gray;
     line-height: 25px;
+
+    &_centered {
+        text-align: center;
+    }
+
+    &_omitted {
+        padding-top: 20px;
+    }
 }
 
 .text_line-height-title {
