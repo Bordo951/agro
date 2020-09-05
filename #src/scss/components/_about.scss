@@ -23,3 +23,53 @@
         padding: 50px 0 0 12px;
     }
 }
+
+.slider-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    padding: 0 105px 0 90px;
+
+    &__wr-person {
+        display: flex;
+    }
+
+    &__person {
+        border-radius: 50%;
+        height: 70px;
+        object-fit: cover;
+        object-position: top;
+        width: 70px;
+    }
+
+    &__person-about {
+        color: $color-white;
+        font: 18px/23px $font-raleway-r;
+        margin: 25px 0 0 20px;
+        overflow: hidden;
+        text-overflow: clip;
+    }
+
+    &__person-about_bold {
+        font-family: $font-raleway-bold;
+    }
+}
+
+.slider-controls {
+    display: flex;
+}
+
+.slider-control {
+    border-radius: 50%;
+    border: 2px solid $color-graphite;
+    cursor: pointer;
+    height: 10px;
+    margin-left: 10px;
+    width: 10px;
+
+    &.slider-control_active,
+    &:hover {
+        background-color: $color-mustard;
+        border-color: $color-mustard;
+    }
+}

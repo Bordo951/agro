@@ -3,20 +3,6 @@
     background-position: top;
     background-size: cover;
 
-    &__wr-title {
-        padding: 140px 0 220px;
-    }
-
-    &__title {
-        margin-bottom: 20px;
-    }
-
-    &__subtitle {
-        color: $color-dark-silver;
-        font: 14px/23px $font-open-sr;
-        max-width: 550px;
-    }
-
     &__more {
         background-color: $color-mustard;
         border-radius: 26px;
@@ -25,6 +11,7 @@
         cursor: pointer;
         font: 12px/20px $font-raleway-bold;
         height: 55px;
+        margin-bottom: 220px;
         margin-top: 45px;
         text-transform: uppercase;
         width: 160px;

@@ -8,9 +8,13 @@
     }
 }
 
-.column__icon-title {
-    color: $color-signal-black;
-    font: 16px/50px $font-raleway-bold;
-    margin-top: 10px;
-    display: inline-block;
+.column__icon {
+    text-align: center;
+
+    &-title {
+        color: $color-signal-black;
+        font: 16px/50px $font-raleway-bold;
+        margin-top: 10px;
+        display: inline-block;
+    }
 }

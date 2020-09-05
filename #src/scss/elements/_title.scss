@@ -12,6 +12,10 @@
         font-family: $font-raleway-black;
     }
 
+    &_two-lines {
+        max-width: 300px;
+    }
+
     &_white {
         color: $color-white;
     }
@@ -22,12 +26,72 @@
     color: $color-signal-black;
     text-transform: uppercase;
 
-    .title_bold {
+    //&_bold {
+    //    font-family: $font-raleway-black;
+    //}
+    //
+    //&_block {
+    //    display: block;
+    //}
+
+    &_bolded {
         font-family: $font-raleway-black;
+        display: block;
     }
 
-    .title_block {
-        display: block;
+    &_pushed-right {
+        position: absolute;
+        right: 175px;
+        top: 115px;
+        width: 515px;
+    }
+
+    &__triptych {
+        font: 100px/100px $font-storytella;
+        font-weight: 400;
+
+        &_right-indent {
+            margin-right: 15px;
+        }
+
+    }
+
+    &_color {
+        &-mustard {
+            color: $color-mustard;
+        }
+
+        &-white {
+            color: $color-white;
+        }
+
+        &-amarant {
+            color: $color-amarant;
+        }
+
+        &-green {
+            color: $color-green;
+        }
+
+        &-orange {
+            color: $color-orange;
+        }
+
+        &-turquoise {
+            color: $color-turquoise;
+        }
+
+        &_silver {
+            color: $color-silver;
+        }
+    }
+
+    &_product-item {
+        bottom: 25px;
+        font-size: 30px;
+        left: 30px;
+        line-height: 30px;
+        position: absolute;
     }
 }
 
@@ -45,40 +109,11 @@
     &_omitted {
         padding-top: 20px;
     }
-}
 
-.text_line-height-title {
-    line-height: 50px;
-}
-
-.text_align-center {
-    text-align: center;
-}
-
-.text_color-mustard {
-    color: $color-mustard;
-}
-
-.text_color-white {
-    color: $color-white;
-}
-
-.text_color-amarant {
-    color: $color-amarant;
-}
-
-.text_color-green {
-    color: $color-green;
-}
-
-.text_color-orange {
-    color: $color-orange;
-}
-
-.text_color-turquoise {
-    color: $color-turquoise;
-}
-
-.text_silver {
-    color: $color-silver;
+    &_left-aligned {
+        color: $color-dark-silver;
+        font: 14px/23px $font-open-sr;
+        margin: 0;
+        max-width: 550px;
+    }
 }

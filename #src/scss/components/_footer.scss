@@ -29,6 +29,17 @@
 
     &__contacts {
         font: 14px/23px $font-open-sr;
+        color: $color-white;
+
+        &_color {
+            &-white {
+                color: white;
+            }
+
+            &-silver {
+                color: $color-silver;
+            }
+        }
     }
 
     &__wr-cocial {
