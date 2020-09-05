@@ -2,34 +2,30 @@
     padding-top: 90px;
     position: relative;
 
-    .triptych__images {
+    &__images {
         position: relative;
     }
 
-    .triptych__gradient {
+    &__gradient {
+        left: 425px;
         position: absolute;
         top: -35px;
-        left: 425px;
     }
 
-    .triptych__wood-top {
+    &__wood-top {
+        left: 460px;
         position: absolute;
         top: -15px;
-        left: 460px;
     }
 
-    .triptych__text {
-        width: 515px;
-        top: 115px;
-        right: 175px;
-        font-family: Storytella,Arial,Helvetica,sans-serif;
+    &__text {
+        font-family: $font-storytella;
         font-size: 100px;
         font-weight: 400;
         line-height: 100px;
         position: absolute;
-    }
-
-    .right-gutter {
-        margin-right: 15px;
+        right: 175px;
+        top: 115px;
+        width: 515px;
     }
 }
