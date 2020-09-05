@@ -857,15 +857,15 @@ p {
   margin-bottom: 125px;
 }
 
-.services .services__wr-title {
+.services__wr-title {
   padding-top: 145px;
 }
 
-.services .services__title {
+.services__title {
   margin-bottom: 10px;
 }
 
-.services .services__wr-icons-row {
+.services__wr-icons-row {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -874,50 +874,51 @@ p {
   margin-top: 90px;
 }
 
-.services .column__icon-title {
+.column__icon-title {
   color: #333333;
   font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
   font-size: 16px;
   line-height: 50px;
   margin-top: 10px;
+  display: inline-block;
 }
 
-.perfect {
+.discover {
   background-image: url("../media/perfect/bg-perfect.jpg");
-  background-size: cover;
   background-position: top;
+  background-size: cover;
 }
 
-.perfect .perfect__wr-title {
-  padding-top: 140px;
+.discover__wr-title {
   padding-bottom: 220px;
+  padding-top: 140px;
 }
 
-.perfect .perfect__title {
+.discover__title {
   margin-bottom: 20px;
 }
 
-.perfect .perfect__subtitle {
-  max-width: 550px;
+.discover__subtitle {
+  color: #c5c5c5;
   font-family: OpenSans-Regular, Arial, Helvetica, sans-serif;
   font-size: 14px;
-  color: #c5c5c5;
   line-height: 23px;
+  max-width: 550px;
 }
 
-.perfect .perfect__call-to-action {
-  margin-top: 45px;
-  height: 55px;
-  width: 160px;
+.discover__more {
+  background-color: #fcdb5a;
   border-radius: 26px;
   border: none;
-  background-color: #fcdb5a;
-  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
   color: #4f4a37;
-  font-size: 12px;
-  line-height: 20px;
-  text-transform: uppercase;
   cursor: pointer;
+  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  height: 55px;
+  line-height: 20px;
+  margin-top: 45px;
+  text-transform: uppercase;
+  width: 160px;
 }
 
 .perfect-food {
@@ -1462,7 +1463,7 @@ p {
 
 .webp .products__fruts{ background: url(../media/awesome-products/ap-berries.webp) no-repeat; }
 
-.webp .perfect{ background-image: url(../media/perfect/bg-perfect.webp); }
+.webp .discover{ background-image: url(../media/perfect/bg-perfect.webp); }
 
 .webp .perfect-food .perfect-food__bg-superfood{ background-image: url(../media/perfect/sandwiches.webp); }
 

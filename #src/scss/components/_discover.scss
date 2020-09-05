@@ -1,37 +1,37 @@
-.perfect {
+.discover {
     background-image: url("../media/perfect/bg-perfect.jpg");
-    background-size: cover;
     background-position: top;
+    background-size: cover;
        
-    .perfect__wr-title {
-        padding-top: 140px;
+    &__wr-title {
         padding-bottom: 220px;
+        padding-top: 140px;
     }
 
-    .perfect__title {
+    &__title {
         margin-bottom: 20px;
     }
     
-    .perfect__subtitle {
-        max-width: 550px;
+    &__subtitle {
+        color: $color-dark-silver;
         font-family: $font-open-sr;
         font-size: 14px;
-        color: $color-dark-silver;
         line-height: 23px;
+        max-width: 550px;
     }
 
-    .perfect__call-to-action {
-        margin-top: 45px;
-        height: 55px;
-        width: 160px;
+    &__more {
+        background-color: $color-mustard;
         border-radius: 26px;
         border: none;
-        background-color: $color-mustard;
-        font-family: $font-raleway-bold;
         color: $color-marsh;
-        font-size: 12px;
-        line-height: 20px;
-        text-transform: uppercase;
         cursor: pointer;
+        font-family: $font-raleway-bold;
+        font-size: 12px;
+        height: 55px;
+        line-height: 20px;
+        margin-top: 45px;
+        text-transform: uppercase;
+        width: 160px;
     }
 }

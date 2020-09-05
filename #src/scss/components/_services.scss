@@ -1,25 +1,26 @@
 .services {
     margin-bottom: 125px;
     
-    .services__wr-title {
+    &__wr-title {
         padding-top: 145px;
-    } 
+    }
 
-    .services__title {
+    &__title {
         margin-bottom: 10px;
     }
 
-    .services__wr-icons-row {
+    &__wr-icons-row {
         display: flex;
         justify-content: space-around;
         margin-top: 90px;
     }
+}
 
-    .column__icon-title {
-        color: $color-signal-black;
-        font-family: $font-raleway-bold;
-        font-size: 16px;
-        line-height: 50px;
-        margin-top: 10px;
-    }
+.column__icon-title {
+    color: $color-signal-black;
+    font-family: $font-raleway-bold;
+    font-size: 16px;
+    line-height: 50px;
+    margin-top: 10px;
+    display: inline-block;
 }
