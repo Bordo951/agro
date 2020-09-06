@@ -1,3 +1,9 @@
+@media all and (min-width: 767px) {
+    .hamburger-menu {
+        display: none;
+    }
+}
+
 @media all and (max-width: 1099px) {
     .footer__map {
         display: none;
