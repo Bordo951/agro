@@ -788,6 +788,110 @@ p {
   width: 155px;
 }
 
+#mobile-menu__toggle {
+  opacity: 0;
+}
+
+#mobile-menu__toggle:checked ~ .mobile-menu__btn > span {
+  -webkit-transform: rotate(45deg);
+      -ms-transform: rotate(45deg);
+          transform: rotate(45deg);
+}
+
+#mobile-menu__toggle:checked ~ .mobile-menu__btn > span::before {
+  top: 0;
+  -webkit-transform: rotate(0);
+      -ms-transform: rotate(0);
+          transform: rotate(0);
+}
+
+#mobile-menu__toggle:checked ~ .mobile-menu__btn > span::after {
+  top: 0;
+  -webkit-transform: rotate(90deg);
+      -ms-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+#mobile-menu__toggle:checked ~ .mobile-menu__box {
+  left: 0;
+  visibility: visible;
+}
+
+.mobile-menu__btn {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 27px;
+  position: fixed;
+  right: 35px;
+  top: 45px;
+  width: 32px;
+  z-index: 1;
+}
+
+.mobile-menu__btn > span,
+.mobile-menu__btn > span::before,
+.mobile-menu__btn > span::after {
+  background-color: #fff;
+  display: block;
+  height: 2px;
+  position: absolute;
+  -webkit-transition-duration: .25s;
+       -o-transition-duration: .25s;
+          transition-duration: .25s;
+  width: 100%;
+}
+
+.mobile-menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+
+.mobile-menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+
+.mobile-menu__box {
+  background-color: rgba(0, 0, 0, 0.9);
+  -webkit-box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+          box-shadow: 1px 0 6px rgba(0, 0, 0, 0.2);
+  display: block;
+  height: 100%;
+  left: -100%;
+  list-style: none;
+  margin: 0;
+  padding: 80px 0;
+  position: fixed;
+  top: 0;
+  -webkit-transition-duration: .25s;
+       -o-transition-duration: .25s;
+          transition-duration: .25s;
+  visibility: hidden;
+  width: 300px;
+}
+
+.mobile-menu__item {
+  color: #fff;
+  display: block;
+  font-family: Raleway-Bold, Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 12px 24px;
+  text-decoration: none;
+  -webkit-transition-duration: .25s;
+       -o-transition-duration: .25s;
+          transition-duration: .25s;
+}
+
+.mobile-menu__item:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+
 .products {
   position: relative;
 }
@@ -1608,6 +1712,11 @@ p {
   .posts {
     row-gap: 30px;
     grid-template-columns: 1fr;
+  }
+
+  .header__navigation,
+  .header__regiter {
+    display: none;
   }
 }
 

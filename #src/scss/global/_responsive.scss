@@ -204,4 +204,11 @@
         row-gap: 30px;
         grid-template-columns: 1fr;
     }
+
+    .header {
+        &__navigation,
+        &__regiter{
+            display: none;
+        }
+    }
 }

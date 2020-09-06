@@ -14,6 +14,15 @@ testWebP(function (support) {
     }
 });
 
+let mobileMenuItems = document.querySelectorAll('.mobile-menu__item');
+
+mobileMenuItems.forEach(function (element) {
+    element.addEventListener("click", function () {
+        let menuToggle = document.getElementById('mobile-menu__toggle');
+        menuToggle.checked = false;
+    });
+});
+;
 let sliderControls = document.querySelectorAll('.slider-control'),
     textActiveClassName = 'about__text_active',
     personActiveClassName = 'slider-box__wr-person_active',

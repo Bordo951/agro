@@ -14,4 +14,5 @@ testWebP(function (support) {
     }
 });
 
+@@include('_menu.js');
 @@include('_about.js');
