@@ -487,6 +487,7 @@ template,
       -ms-flex-pack: justify;
           justify-content: space-between;
   margin-top: 105px;
+  overflow-x: auto;
 }
 
 .container_footer {
@@ -950,7 +951,7 @@ p {
 .perfect-food__grid-table {
   cursor: pointer;
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(4, 25%);
   grid-template-rows: repeat(2, 220px);
   position: relative;
   top: -115px;
@@ -1045,7 +1046,6 @@ p {
   font: 230px/180px Storytella, Arial, Helvetica, sans-serif;
   max-width: 430px;
   padding: 160px 0 195px;
-  z-index: 5;
 }
 
 .progress__wr-icons-row {
@@ -1424,6 +1424,187 @@ p {
   -webkit-transition: .7s;
   -o-transition: .7s;
   transition: .7s;
+}
+
+@media all and (max-width: 1099px) {
+  .footer__map {
+    display: none;
+  }
+
+  .triptych__images img {
+    max-width: 100%;
+  }
+
+  .triptych__gradient {
+    left: calc(50% - 160px);
+  }
+
+  .triptych__wood-top {
+    left: calc(50% - 130px);
+  }
+
+  .title__triptych {
+    right: calc(50% - 290px);
+  }
+
+  .header__menu-item {
+    margin-left: 20px;
+  }
+
+  .progress__wr-icons-row {
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    text-align: center;
+    width: 480px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .footer__logo {
+    margin-right: 10px;
+  }
+
+  .footer-menu {
+    margin-right: 35px;
+  }
+
+  .footer__wr-email {
+    padding-bottom: 30px;
+  }
+
+  .footer__wr-contacts {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+
+  .footer_wr-copyright {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column;
+            flex-flow: column;
+  }
+
+  .footer__copyright {
+    padding-bottom: 20px;
+  }
+
+  .perfect-food__content {
+    overflow: hidden;
+    padding: 15px;
+    -o-text-overflow: clip;
+       text-overflow: clip;
+  }
+
+  .perfect-food__table-title {
+    font-size: 16px;
+  }
+
+  .perfect-food__table-subtitle {
+    font-size: 12px;
+  }
+
+  .tasty__logo {
+    right: 0;
+  }
+
+  .tasty-food {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(4, 340px);
+  }
+
+  .posts {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 330px;
+  }
+
+  .posts__wr-title {
+    left: 15px;
+  }
+
+  .services__wr-icons-row {
+    -ms-flex-flow: wrap;
+        flex-flow: wrap;
+    margin: 60px auto 0;
+    width: 430px;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .products__title {
+    font-size: 120px;
+    padding-top: 200px;
+  }
+
+  .products__bg {
+    padding-bottom: 300px;
+  }
+
+  .products__list {
+    display: none;
+  }
+
+  .title__triptych {
+    width: 270px;
+    right: calc(50% - 150px);
+    line-height: 80px;
+    font-size: 60px;
+  }
+
+  .triptych__images {
+    margin-bottom: 250px;
+  }
+
+  .services__wr-icons-row {
+    width: 280px;
+  }
+
+  .perfect-food__grid-table {
+    grid-template-columns: repeat(4, 100%);
+    overflow-x: auto;
+  }
+
+  .progress__wr-icons-row {
+    margin-top: 40px;
+    width: 190px;
+  }
+
+  .slider-box {
+    padding-left: 0;
+  }
+
+  .slider-box__person-about {
+    margin-top: 15px;
+  }
+
+  .about__image {
+    display: none;
+  }
+
+  .about__text {
+    font-size: 16px;
+    height: 130px;
+    line-height: 22px;
+    padding: 0;
+  }
+
+  .tasty {
+    display: none;
+  }
+
+  .footer__logo {
+    display: none;
+  }
+
+  .container_footer {
+    margin: 0 15px;
+  }
+
+  .posts {
+    row-gap: 30px;
+    grid-template-columns: 1fr;
+  }
 }
 
 .webp .products__bg{ background-image: url(../media/bg-organic-food.webp); }

@@ -5,7 +5,7 @@
     &__grid-table {
         cursor: pointer;
         display: grid;
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(4, 25%);
         grid-template-rows: repeat(2, 220px);
         position: relative;
         top: -115px;
