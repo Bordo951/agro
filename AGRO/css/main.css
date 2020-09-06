@@ -817,7 +817,7 @@ p {
 
 .products__list {
   display: grid;
-  grid-template-columns: 1fr 380px 385px 115px 500px 1fr;
+  grid-template-columns: 1fr 25% 25% 7.5% 32.8% 1fr;
   grid-template-rows: 310px 370px;
 }
 
@@ -1398,6 +1398,13 @@ p {
 .footer__copyright {
   color: #7E7E7E;
   font: 13px/15px OpenSans-Regular, Arial, Helvetica, sans-serif;
+}
+
+.footer__map {
+  overflow: hidden;
+  max-height: 600px;
+  height: 100%;
+  width: 100%;
 }
 
 .footer-menu {
