@@ -1593,6 +1593,10 @@ p {
     display: none;
   }
 
+  .tasty-food {
+    grid-template-rows: repeat(4, 250px);
+  }
+
   .footer__logo {
     display: none;
   }
