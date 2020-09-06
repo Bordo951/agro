@@ -1,0 +1,85 @@
+.perfect-food {
+    background-color: $color-smoky-white;
+    margin-top: 0;
+
+    &__grid-table {
+        cursor: pointer;
+        display: grid;
+        grid-template-columns: repeat(4, 25%);
+        grid-template-rows: repeat(2, 220px);
+        position: relative;
+        top: -115px;
+        z-index: 5;
+    }
+
+    &__bg-superfood {
+        background-image: url("../media/perfect/sandwiches.jpg");
+        background-position: top;
+        background-size: cover;
+        grid-column: 1/2;
+        grid-row: 1/2;
+    }
+
+    &__bg-grunt {
+        background-image: url("../media/perfect/breakfast.jpg");
+        background-position: top;
+        background-size: cover;
+        grid-column: 3/4;
+        grid-row: 1/2;
+    }
+
+    &__bg-benefit {
+        background-image: url("../media/perfect/pancakes.jpg");
+        background-position: top;
+        background-size: cover;
+        grid-column: 2/3;
+        grid-row: 2/3;
+    }
+
+    &__bg-tips {
+        background-image: url("../media/perfect/yogurt.jpg");
+        background-position: top;
+        background-size: cover;
+        grid-column: 4/5;
+        grid-row: 2/3;
+    }
+
+    &__content {
+        background-color: $color-white;
+        padding: 25px 35px;
+    }
+
+    &__table-title {
+        color: $color-signal-black;
+        font: 18px/23px $font-raleway-bold;
+    }
+
+    &__table-subtitle {
+        color: $color-light-black;
+        font: 14px/23px $font-open-sr;
+        height: 65px;
+        overflow: hidden;
+        text-overflow: clip;
+        white-space: pre-wrap;
+    }
+
+    &__benefit {
+        grid-column: 2/3;
+        grid-row: 1/2;
+    }
+
+    &__tips {
+        grid-column: 4/5;
+        grid-row: 1/2;
+    }
+
+    &__superfood {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    &__grunt {
+        grid-column: 3/4;
+        grid-row: 2/3;
+    }
+}

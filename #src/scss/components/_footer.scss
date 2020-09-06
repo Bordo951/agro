@@ -1,0 +1,96 @@
+.footer {
+    background-color: $color-signal-black;
+    display: flex;
+    margin-top: 95px;
+
+    &__wr-navigation {
+        display: flex;
+        margin-bottom: 40px;
+    }
+
+    &__logo {
+        background-color: $color-mustard;
+        height: 135px;
+        margin-right: 120px;
+        width: 100px;
+    }
+
+    &__wr-contacts {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__contacts-title {
+        color: $color-light-yellow;
+        font: 12px/25px $font-raleway-bold;
+        margin-bottom: 10px;
+        text-transform: uppercase;
+    }
+
+    &__contacts {
+        font: 14px/23px $font-open-sr;
+        color: $color-white;
+
+        &_color {
+            &-white {
+                color: white;
+            }
+
+            &-silver {
+                color: $color-silver;
+            }
+        }
+    }
+
+    &__wr-cocial {
+        padding-top: 30px;
+    }
+
+    &__icon {
+        &:hover {
+            transform: scale(1.4);
+            transition: .5s;
+        }
+    }
+
+    &__line {
+        background-color: $color-hr-footer;
+        height: 1px;
+        margin-bottom: 35px;
+        margin-top: 55px;
+    }
+
+    &_wr-copyright {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__copyright {
+        color: $color-gray;
+        font: 13px/15px $font-open-sr;
+    }
+
+    &__map {
+        overflow: hidden;
+        max-height: 600px;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.footer-menu {
+    margin-right: 45px;
+    margin-top: 0;
+
+    &__item {
+        border-bottom: 2px transparent solid;
+        color: $color-white-aluminum;
+        cursor: pointer;
+        font: 14px/30px $font-open-sr;
+
+        &:hover {
+            border-bottom: 2px $color-mustard solid;
+            transition: .7s;
+        }
+    }
+}

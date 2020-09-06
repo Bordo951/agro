@@ -1,0 +1,55 @@
+.container {
+    max-width: 1200px; /*первоначальный 1170 и накинули по 15пикс с двух сторон, чтобы не прилипал*/
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+
+    &_header {
+        display: flex;
+        position: relative;
+    }
+
+    &_services {
+        margin-top: 145px;
+    }
+
+    &_progress {
+        margin-top: 140px;
+    }
+
+    &_blog {
+        margin-top: 130px;
+    }
+
+    &_discover {
+        padding-top: 140px;
+    }
+
+    &_partners {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 105px;
+        overflow-x: auto;
+    }
+
+    &_footer {
+        max-width: 670px;
+        margin: 0 60px 0 175px;
+        padding: 75px 0 0 0;
+        box-sizing: border-box;
+    }
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    margin: 0;
+}
+
