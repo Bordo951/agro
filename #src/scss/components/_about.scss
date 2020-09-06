@@ -10,13 +10,18 @@
     }
 
     &__text {
-        font:italic 25px/30px $font-times-nr;
         color: $color-white;
-        overflow: hidden;
-        text-overflow: clip;
-        max-width: 985px;
+        display: none;
+        font:italic 25px/30px $font-times-nr;
         height: 115px;
+        max-width: 985px;
+        overflow: hidden;
         padding: 10px 0 0 35px;
+        text-overflow: clip;
+
+        &_active {
+            display: block;
+        }
     }
 
     &__wr-slider-content {
@@ -31,7 +36,11 @@
     padding: 0 105px 0 90px;
 
     &__wr-person {
-        display: flex;
+        display: none;
+
+        &_active {
+            display: flex;
+        }
     }
 
     &__person {

@@ -1,19 +1,3 @@
-/* JS-function ro identify the WEBP support */
-function testWebP(callback) {
-
-    var webP = new Image();
-    webP.onload = webP.onerror = function () {
-        callback(webP.height == 2);
-    };
-    webP.src = "data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA";
-}
-
-testWebP(function (support) {
-    if (support == true) {
-        document.querySelector('body').classList.add('webp');
-    }
-});
-
 let sliderControls = document.querySelectorAll('.slider-control'),
     textActiveClassName = 'about__text_active',
     personActiveClassName = 'slider-box__wr-person_active',
@@ -46,4 +30,4 @@ function addActiveClassToElementById(elementId, activeClassName) {
 
 function addActiveClassToElement(element, activeClassName) {
     element.classList.add(activeClassName);
-};
+}

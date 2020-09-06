@@ -13,3 +13,5 @@ testWebP(function (support) {
         document.querySelector('body').classList.add('webp');
     }
 });
+
+@@include('_about.js');
